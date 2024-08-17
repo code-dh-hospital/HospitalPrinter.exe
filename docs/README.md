@@ -5,7 +5,10 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0814.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408140-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408140-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408140-NasDHSolutions.json)
+## 3.24.0817.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408170-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408170-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408170-NasDHSolutions.json)
+- ✨: **Thực hiện**: **_💼 Ghi nhận sdnguonkhac vào XML02 và XML03 khi lưu XML4750 ⌛Dự kiến: 2024-08-22_**
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/606
+## [v.3.24.0814.0]()
 - 🐛: **Chỉnh lỗi**: **_Lỗi - THIẾU CÂN NẶNG KHI IN TOA THUỐC TẠI PRINTER_** ![](https://i.imgur.com/6szvFNA.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/167
 ## [v.3.24.0813.0]()
