@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0818.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408180-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408180-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408180-NasDHSolutions.json)
+## 3.24.0818.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408181-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408181-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408181-NasDHSolutions.json)
+- ✨: **Thực hiện**: **_Yêu cầu - Printer Hỗ trợ chọn máy in mặc định khi in tem dán lên thuốc_**
+- ✨: Bổ sung chức năng nhập chỉ định uống và in tem trên phiếu bán lẻ![](https://i.imgur.com/qnAEi6V.png)
+- ✨: In tem chỉ định uống đối với **96133** sẽ theo tham số **temchidinhuong.tenmayin** (Cấu hình tên máy in tem chỉ định uống (chỉ áp dụng đối với 96133): Khác rỗng sẽ in theo giá trị cấu hình, ngược lại sẽ thể hiện form để chọn máy in.)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/605
+
+## [v.3.24.0818.0]()
 - 🐛: **Chỉnh lỗi**: **_Lỗi - Không in phiếu 6556 khi chưa phát sinh cùng chi trả._**
 - 🐛: Tính sai chi phí đối với PHAM_VI=2 ![](https://i.imgur.com/q6QjHnw.png) ![](https://i.imgur.com/KhNIfU3.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/164
