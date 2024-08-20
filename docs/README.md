@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0818.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408182-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408182-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408182-NasDHSolutions.json)
+## 3.24.0820.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408200-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408200-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32408200-NasDHSolutions.json)
+- ✨: **Thực hiện**: **_Yêu cầu - Printer Hỗ trợ chọn máy in mặc định khi in tem dán lên thuốc_**
+- ✨: Không giới hạn số lượng trên control Chỉ định trên form Xuất bán lẻ
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/605
+## [v.3.24.0818.2]()
 - ✨: **Thực hiện**: **_Yêu cầu - Printer Hỗ trợ chọn máy in mặc định khi in tem dán lên thuốc_**
 - ✨: Bổ sung chức năng nhập chỉ định uống và in tem trên phiếu bán lẻ![](https://i.imgur.com/qnAEi6V.png)
 - ✨: In tem chỉ định uống đối với **96133** sẽ theo tham số **temchidinhuong.tenmayin** (Cấu hình tên máy in tem chỉ định uống (chỉ áp dụng đối với 96133): Khác rỗng sẽ in theo giá trị cấu hình, ngược lại sẽ thể hiện form để chọn máy in.)
