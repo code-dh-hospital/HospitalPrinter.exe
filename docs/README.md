@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0921.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32409210-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32409210-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32409210-NasDHSolutions.json)
+## 3.24.0930.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32409300-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32409300-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32409300-NasDHSolutions.json)
+- 🐛: **💼**: **_Lỗi - Không in phiếu 6556 được đối với BN có thuốc tỷ lệ và được hỗ trợ ngân sách._**
+- 🐛: Chỉnh lỗi không in được phiếu 01 ![](https://i.imgur.com/2YuHGga.png) ![](https://i.imgur.com/ZTNjQME.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/171
+## [v.3.24.0921.0]()
 - 🐛: **💼**: **_Lỗi - Chỉnh toa và lưu chưa bắt được trạng thái đang thu._**
 - 🐛: Thêm chức năng hỗ trợ kiểm tra số chứng từ đã được lập phiếu thu ![](https://i.imgur.com/ozigJQk.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/170
