@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1015.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410151-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410151-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410151-NasDHSolutions.json)
+## 3.24.1015.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410152-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410152-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410152-NasDHSolutions.json)
+- ✨: **💼**: **_Yêu cầu - in bảng kê lấy đơn vị khám cuối (BV Quảng Ngãi)_**
+- ✨: ***Lấy đơn vị in phiếu theo cấu hình chức năng lấy chẩn đoán theo phòng đầu hay phòng cuối của cấu hình 6556*** ![](https://i.imgur.com/2qDROdC.png) ![](https://i.imgur.com/rwKvd5b.png) ![](https://i.imgur.com/UCFZjYV.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/708
+## [v.3.24.1015.1]()
 - 🐛: **💼**: **_Lỗi - PHÁT SINH LỖI KHI IN BẢNG KÊ NGOẠI TRÚ _**
 - 🐛: Chỉnh lỗi khi in phiếu 01. ![](https://i.imgur.com/vPeDCMf.gif)
 - ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/176
