@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1021.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410210-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410210-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410210-NasDHSolutions.json)
+## 3.24.1022.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410220-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410220-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FHospitalPrinterexe%2F32410220-NasDHSolutions.json)
+- 🐛: **💼**: **_Lỗi - Bảng kê 6556 hiển thị chi phí ngoài BHYT_**
+- 🐛: ***Chỉnh lỗi số bản in tách trang in không theo cấu hình*** ![](https://i.imgur.com/jw8OaFU.gif)
+- ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/175
+## [v.3.24.1021.0]()
 - ✨: `--- 🐛: **💼**: **_Lỗi - Phần mềm xuất XML 4750 sai mã bệnh chính và mã bệnh kèm theo khi bệnh nhân khám nhiều phòng_**
 - 🐛: ***Chỉnh lỗi khi in phiếu 01 không sinh đúng dữ liệu XML4750 và chẩn đoán bị sai*** ![](https://i.imgur.com/cRXTjTR.png) ![](https://i.imgur.com/mQ29Ykw.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/174 
