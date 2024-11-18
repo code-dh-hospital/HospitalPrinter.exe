@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.24.1118.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411183-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Cập nhật chức năng thể hiện QR Nhà thuốc bị chậm (cập nhật SQL để cập nhật giá trị QRID lại, để tốc độ nhanh hơn)
+
+## [v.3.24.1118.2]()
+- 🐛: Cập nhật chức năng thể hiện QR Nhà thuốc bị chậm (cập nhật SQL để cập nhật giá trị QRID lại, để tốc độ nhanh hơn)
+
+## [v.3.24.1118.1]()
+- 🐛: Cập nhật chức năng thể hiện QR Nhà thuốc bị chậm (cập nhật SQL để cập nhật giá trị QRID lại, để tốc độ nhanh hơn)
+
+## [v.3.24.1118.0]()
+- 🐛: Cập nhật chức năng thể hiện QR Nhà thuốc bị chậm (cập nhật SQL để cập nhật giá trị QRID lại, để tốc độ nhanh hơn)
+
 ## [v.3.24.1114.0]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411140-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411140-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411140-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: **💼**: **_Lỗi - Không hiên thị tên BYT trên mẫu 19_**
 - 🐛: ***Chỉnh lỗi không ghi nhận mahh khi lưu trữ hồ sơ XML4750 trên XML02,XML03***. Trường hợp những hồ sơ chưa lưu được mahh, thì thực hiện chức năng kiểm tra hồ sơ giữa 4210 và 4750 để cập nhật lại.
