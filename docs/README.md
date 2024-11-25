@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1125.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411251-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Printer In tem xuất bản lẻ và in tem trong phần In phiếu KCB thêm para cột số lượng
+- 🐛: Chỉnh lỗi mất tên hàng hóa khi in tem ![](https://i.imgur.com/aRol7XC.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/8
+
 ## [v.3.24.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411250-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Printer In tem xuất bản lẻ và in tem trong phần In phiếu KCB thêm para cột số lượng
 - 🐛: Bổ sung các para vào tem toa thuốc (soluong, soluongstr,dvt) ![](https://i.imgur.com/49MB8GW.png) ![](https://i.imgur.com/Lke5Q08.png)
