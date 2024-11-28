@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1128.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411283-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411283-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411283-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Test: Prescription In không lấy thuốc và In bệnh nhân không ký tên không lấy được XML130 lên Reports và XML4750 lên Admin, in ngày cũ phần mềm ghi nhận ngày in là ngày hiện tại
+- 🐛: Thêm chức năng cập nhật giờ kết thúc khi Không lấy thuốc khác ngày. ![](https://i.imgur.com/1J5tkbS.png) ![](https://i.imgur.com/GQ04rGl.png) ![](https://i.imgur.com/oSjWSEH.png)
+- ☑: https://github.com/dhhiswork/Loi/issues/55
+
 ## [v.3.24.1128.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411282-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Test: Prescription chỉnh toa thuốc phần mềm tự ghi nhận trạng thái tái khám
 - ✨: Loại bỏ chức năng hẹn thanh toán (taikham) khi thực hiện thao tác in phiếu, không lấy thuốc ![](https://i.imgur.com/MijYnf7.png) ![](https://i.imgur.com/8SUPv9o.png)
