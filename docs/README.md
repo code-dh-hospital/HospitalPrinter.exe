@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.24.1128.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411281-NasDHSolutions.json)</sup></sup></sub>
+- ✨: - 🐛: Lỗi - Admin load sai danh sách đối tượng KHÔNG BHYT
+- 🐛: Chỉnh lỗi ghi nhận sai giá trị XML01.T_TONGCHI_BH khi tạo XML4750 (những trường hợp có PHAM_VI=2). Những trường hợp đã ghi nhận sai phải dùng Chức năng đối soát, nếu không có hồ sơ đối soát phải dùng module mới để in lại phiếu 01.
+- ![](https://i.imgur.com/KIRuxe5.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/27
+
 ## [v.3.24.1128.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32411280-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Register, Prescription không nhập được cân nặng với 4 kí tự
 - 🐛: Kiểm tra cân nặng vượt quá 200 thì cảnh báo
