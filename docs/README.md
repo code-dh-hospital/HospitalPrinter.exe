@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1213.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412130-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV QDY CT: Printer in không lấy thuốc không hiện thông báo in phiếu, trạng thái dain có lúc = 2 (không hiện thông báo in phiếu), có lúc = 3 (có hiện thông báo có in phiếu không bấm bỏ qua), ... ·
+- 🐛: Bổ sung chức năng ghi nhật ký đối Khi in BN không ký tên, Không lấy thuốc không in phiếu ![](https://i.imgur.com/aP7DfkT.png)
+- ☑: https://github.com/dhhiswork/Loi/issues/33#issuecomment-2539577215
+
 ## [v.3.24.1211.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412110-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chức năng hiệu chỉnh thông tin bệnh nhân trên Admin, Register, Prescription, Printer, hiệu chỉnh thông tin BANT không cập nhật lại trạng thái tuyenxml từ 1 thành 0 khi đổi BV cấp thẻ trong psdangky, bnnoitru -> khi in bảng kê bị sai trang thái tuyến (trái tuyến) đúng là thông tuyến.
 ![](https://i.imgur.com/PCmnZNx.gif)
