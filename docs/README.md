@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.24.1214.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412140-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Triển khai Kios và phát thuốc hiển thị ra Tivi Bệnh viện Tâm Phúc ![](https://i.imgur.com/c3KsZuM.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/34
+
 ## [v.3.24.1213.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32412130-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV QDY CT: Printer in không lấy thuốc không hiện thông báo in phiếu, trạng thái dain có lúc = 2 (không hiện thông báo in phiếu), có lúc = 3 (có hiện thông báo có in phiếu không bấm bỏ qua), ... ·
 - 🐛: Bổ sung chức năng ghi nhật ký đối Khi in BN không ký tên, Không lấy thuốc không in phiếu ![](https://i.imgur.com/aP7DfkT.png)
