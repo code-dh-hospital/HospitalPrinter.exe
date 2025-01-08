@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0108.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501080-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Bảng kê 6556 lấy tên bệnh chính bị sai khi bệnh nhân khám nhiều phòng và có phòng có chẩn đoán YHCT
+- 🐛: ***Không phải lỗi:*** `Thiết kế bảng kê 6556 bệnh chính lấy para TEN_BENH chỉ lấy tên bệnh ICD 10 nhưng phần mềm lấy tên bệnh có YHCT` phụ thuộc vào tham số `xml421yhct` 
+- ✨: ***Xử lý thêm để không trùng do tham số xml421yhct***: `Thiết kế bảng kê 6556 bệnh chính lấy para TEN_BENH_CO_YHCT bị trùng tên bệnh YHCT` ![](https://i.imgur.com/1vH33GU.png)
+- ✨: ***Xử lý không ghép tên YHCT vào tham số TEN_BENH_CO_YHCT theo phòng khám*** ![](https://i.imgur.com/zssaJHE.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/12
+
 ## [v.3.25.0104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501040-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng cấu hình khu vực.
