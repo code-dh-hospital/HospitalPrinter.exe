@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.25.0113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501130-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Bảng kê 6556 lấy tên bệnh chính bị sai khi bệnh nhân khám nhiều phòng và có phòng có chẩn đoán YHCT - (dh-issue/LOI/#12) ![](https://i.imgur.com/aZMy9Ys.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/12
+
 ## [v.3.25.0108.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501080-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Bảng kê 6556 lấy tên bệnh chính bị sai khi bệnh nhân khám nhiều phòng và có phòng có chẩn đoán YHCT
 - 🐛: ***Không phải lỗi:*** `Thiết kế bảng kê 6556 bệnh chính lấy para TEN_BENH chỉ lấy tên bệnh ICD 10 nhưng phần mềm lấy tên bệnh có YHCT` phụ thuộc vào tham số `xml421yhct` 
