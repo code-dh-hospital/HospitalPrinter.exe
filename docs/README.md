@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hiển thị màn hình QR cho chức năng xuất bán lẻ nhà thuốc. - (dh-issue/YEUCAU/#29)
+- ✨: ***Bổ sung chức năng sinh cấu hình sử dụng QRCode trên chức năng xuất bán lẻ, thiết kế riêng cho Khoa dược và Nhà thuốc.*** ![](https://i.imgur.com/ku6BAW5.png) ![](https://i.imgur.com/kVtRSxt.png)
+- ✨: ***Bổ sung chức năng sinh QRCode khi in phiếu thu tại chức năng xuất bán lẻ.*** ![](https://i.imgur.com/ApJTVc2.png) ![](https://i.imgur.com/FLo9SUp.png)
+- ✨: ***Bổ sung chức năng sinh QRCode ra màn hình phụ thứ 2 trên chức năng xuất bán lẻ.***
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/29
+
 ## [v.3.25.0113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501130-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Bảng kê 6556 lấy tên bệnh chính bị sai khi bệnh nhân khám nhiều phòng và có phòng có chẩn đoán YHCT - (dh-issue/LOI/#12) ![](https://i.imgur.com/aZMy9Ys.png)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/12
