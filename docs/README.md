@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hiển thị màn hình QR cho chức năng xuất bán lẻ nhà thuốc. - (dh-issue/YEUCAU/#29)
+- ✨: Chỉnh lỗi không thể hiện ngày sinh trên màn hình QR. ![](https://i.imgur.com/dOVYf6U.png) ![](https://i.imgur.com/E0tIJV8.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/29
+
 ## [v.3.25.0119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501190-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hiển thị màn hình QR cho chức năng xuất bán lẻ nhà thuốc. - (dh-issue/YEUCAU/#29)
 - ✨: ***Bổ sung chức năng sinh cấu hình sử dụng QRCode trên chức năng xuất bán lẻ, thiết kế riêng cho Khoa dược và Nhà thuốc.*** ![](https://i.imgur.com/ku6BAW5.png) ![](https://i.imgur.com/kVtRSxt.png)
