@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.25.0121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản - Hỗ trợ lọc và in phiếu thu và phiếu xuất kho riêng cho hàng hoá tiện ích
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
+
+- Hỗ trợ lọc theo mặt hàng tiện ích
+
+![](https://i.imgur.com/eJZ0E9d.gif)
+
+- Tách riêng in hàng hoá tiện ích
+
+![](https://i.imgur.com/QXowNQU.png)
+
+![](https://i.imgur.com/G2A2cP0.png)
+
+![](https://i.imgur.com/lHQhCvl.png)
+
 ## [v.3.25.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hiển thị màn hình QR cho chức năng xuất bán lẻ nhà thuốc. - (dh-issue/YEUCAU/#29)
 - ✨: Chỉnh lỗi không thể hiện ngày sinh trên màn hình QR. ![](https://i.imgur.com/dOVYf6U.png) ![](https://i.imgur.com/E0tIJV8.png)
