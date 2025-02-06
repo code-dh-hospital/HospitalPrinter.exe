@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0206.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502060-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - HIS không cập nhật được trạng thái thanh toán QR của nhà thuốc. - (dh-issue/LOI/#57)
+- 🐛: Thay đổi cách cập nhật QRID tạm, nếu có mã tạm trước sẽ lấy mã đó cập nhật các mặt hàng còn lại, ngược lại sẽ tạo qrid mới để cập nhật. Thêm điều kiện chỉ cập nhật khi qrid trong database là tạm hoặc rỗng. ![](https://i.imgur.com/pQQaIA2.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/57
+
 ## [v.3.25.0121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32501210-NasDHSolutions.json)</sup></sup></sub>
 - ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản - Hỗ trợ lọc và in phiếu thu và phiếu xuất kho riêng cho hàng hoá tiện ích
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
