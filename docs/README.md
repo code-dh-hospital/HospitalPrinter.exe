@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0206.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Thực hiện kết nối QR (HD Bank) - BV Cù Lao Minh - (dh-issue/YEUCAU/#32)
+- ✨: Bổ thanh PrivateCode: `thanhtoanqr`, ![](https://i.imgur.com/UpTWyVA.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/32
+
 ## [v.3.25.0206.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - HIS không cập nhật được trạng thái thanh toán QR của nhà thuốc. - (dh-issue/LOI/#57)
 - 🐛: Thay đổi cách cập nhật QRID tạm, nếu có mã tạm trước sẽ lấy mã đó cập nhật các mặt hàng còn lại, ngược lại sẽ tạo qrid mới để cập nhật. Thêm điều kiện chỉ cập nhật khi qrid trong database là tạm hoặc rỗng. ![](https://i.imgur.com/pQQaIA2.gif)
