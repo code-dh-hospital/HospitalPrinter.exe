@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0224.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502240-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  LỖI - XML4 - DON_VI_DO: Đơn vị đo % không hiển thị - LOI - dh-issue- #76
+- 🐛: ***Chỉnh lỗi mất XML04.DON_VI_DO, những hồ sơ đã ghi nhận sai phải thực hiện đối soát lại. Cập nhật hồ sơ khi in phiếu 01 thông tin lỗi DON_VI_DO.*** ![](https://i.imgur.com/8JNfwKW.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/76
+
 ## [v.3.25.0220.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32502200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản - fix lỗi Bảng kê tổng hợp chưa lọc được tiện ích
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
