@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0307.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503070-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Đông Tây: Không mở khóa và phục hồi được toa mua ngoài không lấy thuốc
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/96
+
+![](https://i.imgur.com/vfO5zsx.png)
+![](https://i.imgur.com/hll30UC.png)
+
 ## [v.3.25.0303.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503030-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - BV Sa Đéc: Phần mềm Printer và Fees không ẩn danh sách quyển Biên lai (gọi chung các quyển thu phí) đã ngưng sử dụng - LOI - dh-issue- #112
 - 🐛:  ***Xử lý loại bỏ những quyển hóa đơn ngưng sử dụng (sudung=1).*** ![](https://i.imgur.com/8kM1fHF.png)
