@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0312.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bắt buộc nhập CCCD đối với đối tượng Khám sức khỏe (BV Thanh Bình)
+- Cập nhật theo mô tả: Khi Click Lưu, dựa vào madt kiểm tra bảng current.dmdoituong.
+	Nếu `current.dmdoituong.cccd_required == 0 `=> Cho phép lưu lại bình thường
+	Nếu `current.dmdoituong.cccd_required == 1 ` và `txtCMND.text == ''` => Cảnh báo bắt buộc nhập căn cước công dân, không cho lưu lại.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/82
+
 ## [v.3.25.0307.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503071-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - PRINTER - BN có chi phí Thu phí đã thu tiền - nhưng không in được phiếu 01 - LOI - dh-issue- #120
 - 🐛:  ***Xử lý lỗi khi có miễn giảm cận lâm sàng, dẫn đến không in phiếu 01.*** ![](https://i.imgur.com/FD3goVd.png)![](https://i.imgur.com/AL6CEGn.png)
