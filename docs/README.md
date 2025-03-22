@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0322.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503220-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  LỖI - PRINTER - Không hiển thị tên BN in phiếu 01 khi Trạng thái khambenh.dakham =3 - LOI - dh-issue- #153
+- 🐛:  ***Xử lý lấy thêm những bệnh nhân CK+CLS chỉ có toa mua ngoài (không toa BHYT) vào danh sách CK+CLS.*** ![](https://i.imgur.com/vfrh4xE.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/153#issuecomment-3773
+
 ## [v.3.25.0318.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32503180-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer (thuốc có check tiện ích) khi chọn không lấy thuốc, không có tác dụng đối với bệnh nhân nội trú đã xử trí xuất viện
 ![](https://i.imgur.com/TbDP8BI.gif)
