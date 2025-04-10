@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0410.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32504100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32504100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32504100-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Form Hóa đơn điện tử hiển thị đúng kho - YEUCAU - dh-issue- #164
+- ✨:  ***Mở rộng tất cả hóa đơn điện tử chỉ lấy chứng từ theo kho trong phần cấu hình máy.*** ![](https://i.imgur.com/ivZjcL0.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/164
+
 ## [v.3.25.0409.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32504090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32504090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32504090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Printer: Bổ sung chức năng tự thiết kế cho mẫu xuất bán lẻ (BV Tam Nông)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/170
