@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0508.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505080-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Thống nhất cách in phiếu thu tự thiết kế theo tham số - YEUCAU - dh-issue- #203 
+- ✨:  ***Mở rộng tham số sdmauphieuthu: (5: in phiếu thu tự thiết kế có thông tin thanh toán QRCode, xem trước in , 6: in phiếu thu tự thiết kế có thông tin thanh toán QRCode, in trực tiếp).*** ![](https://i.imgur.com/YtX5kKA.png)
+- ✨: Mẫu tự thiết kế: [Tải về](https://gofile.me/78TQg/Abkw5lw4W) ![](https://i.imgur.com/Hgn0auR.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
 ## [v.3.25.0505.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505051-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Xử lý không cho in phiếu đối với BN xử trí nhập viện 
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/13
