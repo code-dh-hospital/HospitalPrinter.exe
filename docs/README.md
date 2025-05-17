@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0517.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505170-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Bệnh nhân in không lấy thuốc không in bảng kê (BV Đông Hải) - LOI - dh-issue- #291
+- 🐛:  ***Xử lý không phát sinh XML4750 khi Không lấy thuốc - Không in phiếu 01.*** ![](https://live.staticflickr.com/65535/54525170670_bdfa1a5a11_b.jpg) ![](https://live.staticflickr.com/65535/54524821906_04d40a2f52_b.jpg) ![](https://live.staticflickr.com/65535/54524802476_6b6f3e4887_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/291
+
 ## [v.3.25.0508.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505081-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Thống nhất cách in phiếu thu tự thiết kế theo tham số - YEUCAU - dh-issue- #203 
 - ✨:  ***Mở rộng tham số sdmauphieuthu: (5: in phiếu thu tự thiết kế có thông tin thanh toán QRCode, xem trước in , 6: in phiếu thu tự thiết kế có thông tin thanh toán QRCode, in trực tiếp).*** ![](https://i.imgur.com/YtX5kKA.png)
