@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0605.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Printer Tách Phiếu thu đối với hàng tiện ích và Thuốc ra 2 phiếu thu riêng Tại nút In Toa thuốc + Mẫu BHYT tại Printer
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/289
+
+![](https://live.staticflickr.com/65535/54567461097_58e3c1ac66_b.jpg)
+
 ## [v.3.25.0531.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505311-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505311-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32505311-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Lập hóa đơn điện tử theo cấu hình riêng. - YEUCAU - dh-issue- #278
 - ✨:  ***Bổ sung cấu trúc hỗ trợ cấu hình chức năng HDDT-MTT đối với kết nối VNPT.*** ![](https://live.staticflickr.com/65535/54557366089_8f19334b14_b.jpg)
