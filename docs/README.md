@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0623.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506230-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung nghiệp vụ mới đối với Hóa đơn điện tử - VAT (BV SỐ 10)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/248
+
+- Bổ sung cho phép chỉnh và thay thế hoá đơn khi lưu.
+- Bổ sung không cho xoá khi phiếu thu đã lập hoá đơn điện tử.
+
+![](https://live.staticflickr.com/65535/54607136782_a3ef52f6ee_b.jpg)
+
 ## [v.3.25.0620.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506200-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Tim Mạch CT: Thủ thuật đã lập phiếu in bảng kê báo chưa thực hiện #358
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/358
