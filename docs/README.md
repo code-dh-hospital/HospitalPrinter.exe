@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0702.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507020-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Printer Tách Phiếu thu đối với hàng tiện ích và Thuốc tại chức năng In toa nội trú
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/309
+
+![](https://live.staticflickr.com/65535/54626910962_75052defb0_b.jpg)
+
 ## [v.3.25.0623.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32506230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung nghiệp vụ mới đối với Hóa đơn điện tử - VAT (BV SỐ 10)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/248
