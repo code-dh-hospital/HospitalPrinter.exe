@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0703.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507030-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Printer không cho in phiếu 01KCB ***In Toa thuốc + Mẫu BHYT*** nếu Prescription Chưa xác nhận kết thúc khám #280
+	- Cập nhật:
+	- Tham số: xacnhanketthuckham = 1 và đã xác nhận kết thúc khám mới in phiếu được
+	![](https://i.vgy.me/3pk07N.png)
+	![](https://i.vgy.me/VJM7SO.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/280
+
 ## [v.3.25.0702.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507020-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Printer Tách Phiếu thu đối với hàng tiện ích và Thuốc tại chức năng In toa nội trú
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/309
