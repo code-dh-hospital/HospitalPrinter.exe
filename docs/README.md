@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0708.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507080-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Printer: Mở chức năng hóa đơn điện tử cho KHOA SỨC KHỎE SINH SẢN -TT KIỂM SOÁT BỆNH TẬT TP CẦN THƠ - YEUCAU - dh-issue- #333
+- ✨:  ***Bổ sung chức năng hddt đối với mã 92000-001.*** ![](https://live.staticflickr.com/65535/54639880067_733439e5a9_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/333
+
 ## [v.3.25.0703.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507030-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Printer không cho in phiếu 01KCB ***In Toa thuốc + Mẫu BHYT*** nếu Prescription Chưa xác nhận kết thúc khám #280
 	- Cập nhật:
