@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.25.0711.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507111-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bảng kê 6556 bệnh nhân ngoại trú BV Tim Mạch Cần thơ #294
+	- Cập nhật:
+	+ Cập nhật script:
+	![](https://i.vgy.me/vTbckx.png)
+
+	+ Điều chỉnh tham số tính vượt ngưỡng theo thành tiền bhyt
+	![](https://i.vgy.me/UVDU74.png)
+	![](https://i.vgy.me/kWYtHU.png)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/294
+<<<<<<< HEAD
+
+## [v.3.25.0711.0]()
+- ✨: Yêu cầu - Bảng kê 6556 bệnh nhân ngoại trú BV Tim Mạch Cần thơ #294
+	- Cập nhật:
+	+ Cập nhật script:
+	![](https://i.vgy.me/vTbckx.png)
+
+	+ Điều chỉnh tham số tính vượt ngưỡng theo thành tiền bhyt
+	![](https://i.vgy.me/UVDU74.png)
+	![](https://i.vgy.me/kWYtHU.png)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/294
+=======
+
 ## [v.3.25.0708.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507081-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Printer: Mở chức năng hóa đơn điện tử cho KHOA SỨC KHỎE SINH SẢN -TT KIỂM SOÁT BỆNH TẬT TP CẦN THƠ - YEUCAU - dh-issue- #333
 - ✨:  ***Bổ sung chức năng hddt đối với mã 92000-001.*** ![](https://live.staticflickr.com/65535/54639880067_733439e5a9_b.jpg)
