@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0714.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507140-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Printer: Mở chức năng hóa đơn điện tử cho BỆNH VIỆN ĐA KHOA SỐ 10 - YEUCAU - dh-issue- #366
+- ✨:  ***Bổ sung theo yêu cầu và biên bản họp tuần.*** ![](https://live.staticflickr.com/65535/54653392961_c3b34ef161_c.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/366
+
 ## [v.3.25.0713.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507130-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  YÊU CẦU - Bổ sung Danh mục địa phương theo Công văn số 1027/CTK-CSCL (gọi tắt Danh mục theo CV 915/CTK-CSCL) - YEUCAU - dh-issue- #346
 - ✨:  ***Cập nhật thêm danh mục địa phương 2 cấp theo mô tả [CONGVAN-YEUCAU/Cong-van-915-CTK-CSCL-2025/Danh-muc-dia-phuong-Cong-van-915-v2.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CONGVAN-YEUCAU/Cong-van-915-CTK-CSCL-2025/Danh-muc-dia-phuong-Cong-van-915-v2.md).*** 
