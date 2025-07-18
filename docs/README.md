@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0718.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer nút In Toa thuốc + Mẫu BHYT (In phiếu 01KCB) không set được trạng thái dain bảng psdangky
+![](https://i.vgy.me/E1ooQf.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/416
+
 ## [v.3.25.0717.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507170-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer nút In Toa thuốc + Mẫu BHYT (In phiếu 01KCB) không set được trạng thái dain bảng psdangky #416
 ![](https://i.vgy.me/6kQULA.gif)
