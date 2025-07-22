@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0722.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507220-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: BV Thanh Bình - Printer không in được bảng kê (Bác sĩ chưa xác nhận kết thúc khám, không thể in phiếu!)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/415
+
+![](https://live.staticflickr.com/65535/54670679749_c061b6616a_b.jpg)
+![](https://live.staticflickr.com/65535/54670441796_957e1cc63c_b.jpg)
+
 ## [v.3.25.0721.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507211-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: BV Tâm Phúc: Printer báo cáo Kê toa theo đối tượng -> Theo sản phẩm thống kê sai chi phí
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/417
