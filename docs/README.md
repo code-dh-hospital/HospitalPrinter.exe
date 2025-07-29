@@ -6,6 +6,50 @@
 
 #
 
+## [v.3.25.0729.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507292-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription in bảng kê 01KCB tại Prescription XML4210 và 4750 mã bệnh chính lại đem qua cột mã bệnh khác #418
+	- Cập nhật printer
+	- mở khóa
+	![](https://i.vgy.me/iSD27k.png)
+
+	- In phiếu:
+	![](https://i.vgy.me/bNDFg8.png)
+
+	- Report
+	![](https://i.vgy.me/tjWBj2.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/418
+
+## [v.3.25.0729.1]()
+- 🐛: Lỗi - Prescription in bảng kê 01KCB tại Prescription XML4210 và 4750 mã bệnh chính lại đem qua cột mã bệnh khác #418
+	- Cập nhật printer
+	- mở khóa
+	![](https://i.vgy.me/iSD27k.png)
+
+	- In phiếu:
+	![](https://i.vgy.me/bNDFg8.png)
+
+	- Report
+	![](https://i.vgy.me/tjWBj2.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/418
+<<<<<<< HEAD
+
+## [v.3.25.0729.0]()
+- 🐛: Lỗi - Prescription in bảng kê 01KCB tại Prescription XML4210 và 4750 mã bệnh chính lại đem qua cột mã bệnh khác #418
+	- Cập nhật printer
+	- mở khóa
+	![](https://i.vgy.me/iSD27k.png)
+
+	- In phiếu:
+	![](https://i.vgy.me/bNDFg8.png)
+
+	- Report
+	![](https://i.vgy.me/tjWBj2.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/418
+=======
+
 ## [v.3.25.0724.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32507240-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi không sử dụng được Nút Lập và in hoá đơn điện tử khi lập hoá đơn tại Printer HDDT VAT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/283
