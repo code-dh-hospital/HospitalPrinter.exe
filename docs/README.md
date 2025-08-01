@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0801.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508011-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lấy sai thông tin đơn vị khi sử dụng Hoá đơn VAT MTT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/283
+
+- Không có tên đơn vị
+![](https://i.vgy.me/BYoCVG.png)
+
+- Có tên đơn vị
+![](https://i.vgy.me/o0bOQA.png)
+
 ## [v.3.25.0801.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508010-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix không thể hiện chi tiết theo mặt hàng khi lập hoá đơn nhà thuốc Hoá đơn VNPT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/292
