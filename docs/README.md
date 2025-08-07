@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0807.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508070-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - BV Sa Đéc: XML 130 sai số tiền và số lượng thuốc khi bệnh nhân có chỉ định số lượng 3 số thập phân - LOI - dh-issue- #422
+- 🐛:  ***Xuất XML2 với số lượng 3 chữ số thập phân.***
+- ![](https://live.staticflickr.com/65535/54704797211_8d893a2d41_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/422
+
 ## [v.3.25.0806.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508064-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508064-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508064-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Lỗi Void DH.XML4750.HOSO..ctor khi in bảng kê - cập nhật tháng kế toán, cập nhật đối chiếu hồ sơ XML - LOI - dh-issue- #448
 - 🐛:  ***Chỉnh lỗi in phiếu 01.*** ![](https://live.staticflickr.com/65535/54703854555_cc22e82e9a_b.jpg)![](https://live.staticflickr.com/65535/54702687517_897844de63_b.jpg)
