@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0813.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Fees/Printer: Bổ sung cấu hình số lẻ cho hóa đơn GTGT MTT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/391
+
+![](https://i.vgy.me/r9L5k6.png)
+
 ## [v.3.25.0807.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508070-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - BV Sa Đéc: XML 130 sai số tiền và số lượng thuốc khi bệnh nhân có chỉ định số lượng 3 số thập phân - LOI - dh-issue- #422
 - 🐛:  ***Xuất XML2 với số lượng 3 chữ số thập phân.***
