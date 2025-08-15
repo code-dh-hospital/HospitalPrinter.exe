@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0815.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508151-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: Không mở khóa chứng từ được.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/447
+
+![](https://i.vgy.me/RNTGsO.gif)
+
 ## [v.3.25.0815.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lấy số lẻ theo option cấu hình làm tròn số lẻ riêng cho nhà thuốc sử dụng HDDT VAT MTT, Bổ sung thông tin CCCD và QHNS lên Form lập hoá đơn nhà thuốc
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/391
