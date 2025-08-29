@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0829.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508291-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - Mã thẻ có ký Hiệu TQ tại XML4750_Bảng 1 cột gt_the_den không hiển thị hạn thẻ - rebuild
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/468
+
+- Cập nhật thư viện Loại trừ chữ cái TQ của mã thẻ không áp dụng theo option BHXH giá trị thẻ đến khi in bảng kê và xuất XML
+
+![](https://i.vgy.me/Ueq7wb.png)
+
 ## [v.3.25.0829.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: Bấm vào nút Không lấy thuốc đối tượng Thu phí báo lỗi tương tác với hệ thống (Push lại do nas đầy -> link ko tải được)
 ![](https://i.vgy.me/sG9Pyn.png)
