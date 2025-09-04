@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0904.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: Cột TH không check thực hiện trong form in phiếu KCB đối với PT/TT đã lập phiếu #479
+	- Cập nhật:
+	![](https://i.vgy.me/FE5Ewm.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/479
+
 ## [v.3.25.0829.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32508291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - Mã thẻ có ký Hiệu TQ tại XML4750_Bảng 1 cột gt_the_den không hiển thị hạn thẻ - rebuild
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/468
