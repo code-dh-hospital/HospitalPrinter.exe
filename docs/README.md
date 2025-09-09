@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.25.0909.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509090-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: Mã đối tượng không thuộc kho cấp phát vẫn load được bệnh nhân
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/480
+
+- Chỉnh lại query lấy danh sách bệnh nhân chỉ có CLS+CK theo tham số hienthidsbncls
+
+- hienthidsbncls = 0
+
+![](https://i.vgy.me/OB6u4z.png)
+
+![](https://i.vgy.me/5FYjf4.png)
+
+![](https://i.vgy.me/9JcHkR.png)
+
+- hienthidsbncls = 1
+
+![](https://i.vgy.me/a4VOPj.png)
+
 ## [v.3.25.0904.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: Cột TH không check thực hiện trong form in phiếu KCB đối với PT/TT đã lập phiếu #479
 	- Cập nhật:
