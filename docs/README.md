@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0910.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509100-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: Lập hóa đơn điện tử bị sai tên thuốc.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/491
+
+- Xử trí lại sẽ không Replace ký tự "." khi lập HDDT cho phiếu thu nhà thuốc và sử dụng option chi tiết theo hàng hoá
+
+![](https://i.vgy.me/xGQSPB.png)
+
+![](https://i.vgy.me/sXTrQH.png)
+
 ## [v.3.25.0909.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509090-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: Mã đối tượng không thuộc kho cấp phát vẫn load được bệnh nhân
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/480
