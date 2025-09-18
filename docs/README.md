@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0918.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509180-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Fees, Printer: Bổ sung thông tin theo NĐ70 khi lập hóa đơn điện tử
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/372
+
+![](https://i.vgy.me/lI5HJ5.png)
+
+![](https://i.vgy.me/9asQH9.png)
+
+![](https://i.vgy.me/sAo1AH.png)
+
 ## [v.3.25.0910.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509100-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: Lập hóa đơn điện tử bị sai tên thuốc.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/491
