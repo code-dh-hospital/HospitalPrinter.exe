@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0923.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509230-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix khi `In BN không ký tên` của lần khám cũ có thông báo đã khoá nhưng vẫn đánh dấu dmthebhyt.chuaky = 1
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/520
+
+![](https://i.vgy.me/VUFl2h.png)
+
 ## [v.3.25.0918.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509180-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Fees, Printer: Bổ sung thông tin theo NĐ70 khi lập hóa đơn điện tử
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/372
