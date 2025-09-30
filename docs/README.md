@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509300-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung Thay thế `chuỗi Không chịu thuế` (nếu có) của cấu hình cho các mặt hàng cấu hình thuế nhỏ hơn 0
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/344
+
+- Cập nhật thư viện lấy chuỗi thay thế (nếu có) khi lập hoá đơn điện tử
+
+![](https://i.vgy.me/fg84c7.png)
+
+![](https://i.vgy.me/RRYHQn.png)
+
 ## [v.3.25.0923.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32509231-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Ràng buộc mã QHNS bắt buộc 7 ký tự theo Nghị định 70
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/372
