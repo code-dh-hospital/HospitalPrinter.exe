@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1008.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510081-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Printer: Cảnh báo hồ sơ đã gửi Cổng trước khi mở khóa và xóa giờ kết thúc khám. - YEUCAU - dh-issue- #327
+- ✨:  ***Bổ sung nhật ký mở khóa đã gửi BHXH.*** ![](https://i.vgy.me/h1NyQ5.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/327
+
 ## [v.3.25.1008.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510080-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng khi in bảng kê 6556 (BV Thạnh Trị) - YEUCAU - dh-issue- #503
 - ✨:  ***Bổ sung chức năng kiểm tra cân nặng khi in phiếu 01, phải lớn hơn 1.*** ![](https://i.vgy.me/9wdxfO.png)
