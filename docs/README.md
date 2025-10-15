@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1015.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510150-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi xuất bán lẻ kho nhà thuốc => Chức năng In phiếu thu chỉ in 3 trang (trong khi có tổng cộng 6 trang).
+![](https://lh3.googleusercontent.com/pw/AP1GczMUQQii9QBn4K0xgHky-VKEwuvHOmbMT6mJ73NXLebuOCn9YgS0wPqUC5oOrGdwyjiMJ_k0cN7ekeaF1uDQkH6_m-P14jdYbCQvR0dO-6qzlu7JZt8W3z69foB4F8093XoU0-laoZTRcOnoc63-JKop=w1185-h879-s-no-gm?authuser=1)
+
+- 🐛: Sửa lỗi xuất bán lẻ kho nhà thuốc => Chức năng in mẫu C21 ở xuất bán lẻ không lấy được thông tin hàng hóa và đơn vị lên trang in.
+![](https://lh3.googleusercontent.com/pw/AP1GczM1LQoLBpdOoQlBVrf2kgrYQgH6yPehMMJ2QrjPvJ0qakqN0Pp2jB2qBx0DjvyYkiraK-kqG_oWDQYYzNviXcS1a0EmZ8dOnXER_gNTtJYuVrdChsFCUl_RhYaCMaqRO3a0CRbi5_S3ZTolrTYbYn4K=w1658-h879-s-no-gm?authuser=1)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/574
+
 ## [v.3.25.1014.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510140-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng khi in bảng kê 6556 (BV Thạnh Trị) - YEUCAU - dh-issue- #503
 - ✨:  ***Bỏ qua chức năng kiểm tra cân năng đối với BANT (vì đã kiểm tra ở chức năng ra viện).*** ![](https://i.vgy.me/yDmf7j.png) ![](https://i.vgy.me/cnL78l.png)
