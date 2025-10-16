@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1016.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510161-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Mẫu in phiếu thu bán lẻ bị khuất chữ ở cột STT và chuỗi số tiền bằng chữ.
+![](https://lh3.googleusercontent.com/pw/AP1GczOYLeQ19dWU-B8MjpCNalKVP05ENmzcuf7E1mAQRyoYVXUbi1kTzTTkM8i9mdCY7qa88OuCZnvUj1m4l9Lltz7Tfo3zCXjRAdlIXvZnv9honIFhGSpesn9FYyU787doaeRH7O9zG_Ib6x-WHJxdPWlF=w585-h879-s-no-gm?authuser=1)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/574
+
 ## [v.3.25.1016.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: 🛣️Kết nối QR - Viettinbank cách mới
 
