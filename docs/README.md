@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1017.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung chức năng cập nhật thông tin hóa đơn điện tử
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/307
+
+- Cho phép mở khoá, chỉnh toa nhà thuốc khi có phiếu thu và có Mở khoá thay thế.
+- Cho phép mở khoá, chỉnh toa bản lẻ nhà thuốc khi có phiếu thu và có Mở khoá thay thế.
+- Cập nhật lại chi phí là lý do thu cho đúng với tổng tiền chứng từ khi thực hiện nghiệp vụ Chỉnh phiếu thu đã lập HDDT nhà thuốc
+
+![](https://files.catbox.moe/ra84ia.png)
+
 ## [v.3.25.1016.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510161-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi Mẫu in phiếu thu bán lẻ bị khuất chữ ở cột STT và chuỗi số tiền bằng chữ.
