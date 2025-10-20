@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1020.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510200-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Chức năng in phiếu KCB module printer ẩn bệnh nhân không có chi phí (BV Thạnh Trị) - YEUCAU - dh-issue- #520
+- ✨:  ***Không lấy bệnh nhân đã lập BANT theo đợt trong phần CLS+CLS.*** ![](https://i.vgy.me/rzkEWm.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/520#issuecomment-17296
+
 ## [v.3.25.1017.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung chức năng cập nhật thông tin hóa đơn điện tử
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/307
