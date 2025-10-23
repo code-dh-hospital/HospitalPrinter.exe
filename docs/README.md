@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1023.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510230-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Fees: Lỗi khi thay thế hóa đơn MTT GTGT của VAT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/307
+
+![](https://files.catbox.moe/3c4c6x.png)
+
 ## [v.3.25.1020.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32510201-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Chức năng in phiếu KCB module printer ẩn bệnh nhân không có chi phí (BV Thạnh Trị) - YEUCAU - dh-issue- #520
 - ✨:  ***Không lấy bệnh nhân đã lập BANT theo đợt trong phần CLS+CLS.*** ![](https://i.vgy.me/rzkEWm.png) ![](https://i.vgy.me/4WJnjU.png)
