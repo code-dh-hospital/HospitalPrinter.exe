@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1104.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32511041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32511041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32511041-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Printer: Cảnh báo hoặc chặn in phiếu 01 khi có đang trong điều trị nội trú - YEUCAU - dh-issue- #546
+- ✨:  ***Bổ sung thêm chức năng kiểm tra theo mã thẻ truyền vào. Trường hợp tìm theo makb không có thì tìm theo mathe, kèm điều kiện ngày nhập viện nhỏ hơn hoặc bằng ngày in phiếu, và trạng thái chưa ra viện.*** 
+- ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/04/DESKTOP-2FLMTI6-explorer-2025-11-04-14h15p07.837.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/546
+
 ## [v.3.25.1104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32511040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32511040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32511040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Không load được thông tin BANT đợt khi mở Chỉnh thông tin từ Printer
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
