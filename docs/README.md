@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1209.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512090-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Admin : Hiệu chỉnh thời gian của ngày đăng ký - Ngày in phiếu 01KCB không lưu được - LOI - dh-issue- #658
+- 🐛:  ***Chỉnh lỗi không lưu được dữ liệu khi gõ ngày thay đổi mà không chọn.*** 
+- ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/12/09/DESKTOP-2FLMTI6-explorer-2025-12-09-09h28p18.536.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/658#issuecomment-20267
+
 ## [v.3.25.1208.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512082-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Printer bổ sung nhật ký in bảng kê tại printer (BV Thạnh Trị) - YEUCAU - dh-issue- #569
 - ✨:  ***Bổ sung chức năng ghi nhật ký và phiên bản khi in phiếu thanh toán 01.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/12/08/DESKTOP-2FLMTI6-explorer-2025-12-08-20h01p05.050.png)
