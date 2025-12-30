@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1230.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512301-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - PK Đông Tây: Cấu hình số phút từ ngày giờ cấp toa, kết quả CLS đến ngày giờ in phiếu
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/570
+
+- 📗: Mô tả [CAU_HINH_SO_PHUT_TOI_THIEU_IN_PHIEU_6556.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CAU%20HINH%20IN%20PHIEU%20KCB%206556/CAU_HINH_SO_PHUT_TOI_THIEU_IN_PHIEU_6556.md)
+
+![](https://i.vgy.me/Ace6Ip.png)
+
+![](https://i.vgy.me/o78ZCV.png)
+
 ## [v.3.25.1230.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32512300-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Admin chức năng xuất XML 4750 bổ sung XML13.ten_dich_vu đối với bệnh nhân không có chi phí cls (BV Ô Môn) - YEUCAU - dh-issue- #622
 - ✨:  ***Bổ sung cấu hình mặc định khi XML13 không có dịch vụ được chỉ định.***
