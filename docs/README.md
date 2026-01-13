@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung kiểm tra trường hợp bệnh nhân không lấy thuốc
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/570
+- 📕: Điều chỉnh điều kiện kiểm tra số phút tối thiểu in phiếu 6556 trường hợp không lấy thuốc
+
+![](https://files.catbox.moe/4yee0a.png)
+
+- 🐛: Lỗi - Printer chức năng in bảng kê 6556 cảnh báo sai tiền bệnh nhân trả (BV Ô Môn)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/684
+- 📕: Set giá trị tiền bệnh nhân trả khi có áp giá BHYT cho thuốc tại EGiamDinh_XML2.GetBntra()
+
+![](https://files.catbox.moe/4yee0a.png)
+
 ## [v.3.26.0111.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601110-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi Thuốc không cấu hình loại toa bị in 2 toa khác nhau.
