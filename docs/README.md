@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0122.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601221-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Hiệu chỉnh thông tin bệnh nhân có BANT không chỉnh được thông tin lãnh thuốc Lao, thông tin chuyển viện #710
+![](https://i.vgy.me/44GRcO.png)
+![](https://i.vgy.me/8Swtms.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/710
+
+## [v.3.26.0122.0]()
+
+- 🐛: Sửa lỗi chức năng chỉnh thông tin bệnh nhân ngoại trú.
+![](https://lh3.googleusercontent.com/pw/AP1GczNyuMsT4TrCA1zLwWcnmyAyU1_wngFutkc97E4Kbq_dJiMSPc_6wyWciF1jdudbVKQQX3VATOzszXePDOD_2LHoD6Gzly0EOKN5RzmI-kP3DppqirmZlo8iiEQAeiACIBMJxSqj2WhuQsnxrKUm5W97=w1653-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/704
+
 ## [v.3.26.0114.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32601141-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Printer : Bảng kê -> Kê toa theo bác sĩ bổ sung cho lọc theo tài khoản chỉ định #644
 	- Cập nhật lại tiêu đề thống kê:
