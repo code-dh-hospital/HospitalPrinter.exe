@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0204.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32602040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32602040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32602040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Xem hoặc in toa thuốc lấy sai thông tin para taikhamngaykhi, thiếu thông tin liều dùng, lỗi tachtoa #733
+![](https://i.vgy.me/dOKFbk.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/733
+
 ## [v.3.26.0203.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32602030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32602030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32602030-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer Bệnh án ngoại trú theo ngày In bảng kê 01KCB và vào Form Mở khóa hiện 2 dòng cùng một bệnh nhân
 ![](https://i.vgy.me/D2AXKq.png)
