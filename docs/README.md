@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0304.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: In phiếu 01 hiển thị lỗi nhưng vẫn in được phiếu #771
+	- Cập nhật:
+		+ Nguyên nhân: nhập chiều cao quá lớn
+
+		![](https://i.vgy.me/w0Novn.png)
+
+		+ Printer chặn không cho in nếu chiều cao không hợp lệ 
+		![](https://i.vgy.me/Qa62ji.png)
+
+		+ Chỉnh chiều cao về đúng: 1.2m, in thành công và tạo được xml
+		![](https://i.vgy.me/85DJTA.png)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/771
+
 ## [v.3.26.0302.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603020-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Printer cải thiện lại Báo cáo khi xem theo sản phẩm
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/693
