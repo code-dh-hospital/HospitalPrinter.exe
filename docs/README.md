@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0309.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ In tại Printer là in ra Toa thuốc có ký số luôn không cần view lên
+- 🐛: Lỗi - Printer In toa thuốc + Phiếu thu (Thuộc kho nhà thuốc) không Ký số được Toa thuốc #777
+![](https://i.vgy.me/KCJ4Km.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/777
+
 ## [v.3.26.0304.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603041-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung nghiệp vụ hóa đơn điện tử Softdream
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/698
