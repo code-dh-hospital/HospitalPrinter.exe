@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0311.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603110-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: Không mở khóa được Toa mua ngoài BANT theo đợt
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/768
+
+![](https://files.catbox.moe/036n1c.png)
+
+![](https://files.catbox.moe/4bie4l.png)
+
 ## [v.3.26.0310.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hỗ trợ In tại Printer là in ra Toa thuốc có ký số luôn không cần view lên
 - 🐛: Lỗi - Printer In toa thuốc + Phiếu thu (Thuộc kho nhà thuốc) không Ký số được Toa thuốc #777
