@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0318.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: In phiếu 01 hiển thị lỗi nhưng vẫn in được phiếu #771
+	
+	- Cập nhật: không được chiều cao từ 2.3m đến 2.5m
+		![](https://i.vgy.me/Y7cQqb.gif)
+
+	P/s: @tvnghia: Có chức năng nào liên qua chiều cao em test hết dùm anh hén.
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/771
+
 ## [v.3.26.0312.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung nghiệp vụ hóa đơn điện tử Softdream
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/698
