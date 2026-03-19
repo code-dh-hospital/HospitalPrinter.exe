@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0319.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603190-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Printer : Bảng kê -> Kê tổng hợp chi phí KCB không load được bệnh nhân chỉ có cận lâm sàng của Bệnh án ngoại trú theo ngày- Lỗi
+- 🐛:  ***Chỉnh lỗi không thấy được bệnh nhân trong danh sách Mở khóa chứng từ.*** ![](https://images-worker.tlt15.workers.dev/i/019d0540-ff2e-75c2-ae87-103dc62ecb57)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/794#issuecomment-25163
+
 ## [v.3.26.0318.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603181-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi Printer : Bảng kê -> Kê tổng hợp chi phí KCB không load được bệnh nhân chỉ có cận lâm sàng của Bệnh án ngoại trú theo ngày- 
 - 🐛:  ***Chỉnh lỗi không lấy được BANT theo ngày thực hiện in chỉ có CLS (nguyên nhân SQL bị sai điều kiện maxt!=07).*** ![](https://images-worker.tlt18.workers.dev/i/019d000a-1e9b-7b6b-8df1-5a2caed61c2b)
