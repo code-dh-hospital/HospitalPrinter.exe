@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0331.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603310-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi in toa thuốc mua ngoài BANT đợt sinh ra 2 dòng ở kho 14
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/768
+
+![](https://files.catbox.moe/ywarfg.png)
+
 ## [v.3.26.0320.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32603200-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Printer : Bảng kê -> Kê tổng hợp chi phí KCB không load được bệnh nhân chỉ có cận lâm sàng của Bệnh án ngoại trú theo ngày- Lỗi
 - 🐛:  ***Chỉnh lỗi không thấy được bệnh nhân trong danh sách Mở khóa chứng từ.*** ![](https://images-worker.tlt15.workers.dev/i/019d0540-ff2e-75c2-ae87-103dc62ecb57)
