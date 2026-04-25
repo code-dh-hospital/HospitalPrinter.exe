@@ -1,3 +1,16 @@
 {
-   "MainExe": "HospitalPrinter.exe"
+  "MainExe": "HospitalPrinter.exe",
+  "ProductDetail": {
+    "ProductName": "DHG.Hospital Printer"
+  },
+  "AdvancedInstallerShortcut": {
+    "Name": "DHG.Hospital Printer",
+    "Target": "APPDIR\\HospitalPrinter.exe",
+    "InDirectories": ["DesktopFolder", "StartMenuFolder\\DHG Pharma"],
+    "PathIcon": "Logo.ico"
+  },
+  "IconInControlPanel": {
+    "IsSetIcon": true,
+    "PathIcon": "Logo.ico"
+  }
 }
