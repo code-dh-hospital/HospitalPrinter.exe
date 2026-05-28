@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0528.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Printer: Lỗi In toa thuốc ký số mẫu A5 in ra giấy A4 (PK Minh Quang)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/861
+- 📕: Thiết đặt lại loại giấy lần nữa để in đúng khổ giấy trong hàm PrintReportDirect
+
+![](https://i.vgy.me/FGEMxU.jpg)
+![](https://i.vgy.me/EfQubP.jpg)
+
 ## [v.3.26.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: Lỗi In toa thuốc ký số mẫu A5 in ra giấy A4 (PK Minh Quang)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/861
