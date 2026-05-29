@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0529.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605290-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bệnh án ngoại trú hỗ trợ điều chỉnh ngày diễn biến trước ngày theo mô tả [THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczN9uLX3Bddk7KK4D4RGANPoI-Z-4EEJggG3eCbh4ZE20_dQ21fKsyQVVoVosM_DIWsGDc5Oxw_VK9xO9KQFiJm3oIbVioNqzH0_5_frdiXL5iLVw3GWhr718TaDHZ96We3g5zwCkq4Yzrf3RtkcW6Gj=w1658-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/784#issuecomment-28772
+
 ## [v.3.26.0528.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605280-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: Lỗi In toa thuốc ký số mẫu A5 in ra giấy A4 (PK Minh Quang)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/861
