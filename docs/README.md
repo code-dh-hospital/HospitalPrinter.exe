@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0602.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606020-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi 
+1. Hiển thị bệnh nhân BANT sai kho cấp phát:
+![](https://lh3.googleusercontent.com/pw/AP1GczNgHDJaIvSjAuh2tMZAMutonp9c8IIe-JRCWryf_QZrGFfUEgnLQg9jWPHzjh_k5GVHEANyiHNCD6vmR_xtYFwmvljbDCdlRvUXn-h6YGIWiz00fSdy1RvTuTH8MbNJToaIEqNAoXFIFSiZj0PYZBVx=w1658-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMVoTCZhZslQoOap8I1mYM2QxSIiriM2gl5ghtJUTxCtiv-rZFHa1Y15lA4-mSWZMz0qr3EAHGtiDtFnh5DGaeU9uUHtsogKhBOA-nmLDpmrZUm_xa6wAywqPivEtdZWmh9dLhTn5Fmtv-0Ohp3sRno=w1653-h879-s-no-gm?authuser=0)
+2. Lỗi mở khóa toa trước ngày:
+![](https://lh3.googleusercontent.com/pw/AP1GczMVoTCZhZslQoOap8I1mYM2QxSIiriM2gl5ghtJUTxCtiv-rZFHa1Y15lA4-mSWZMz0qr3EAHGtiDtFnh5DGaeU9uUHtsogKhBOA-nmLDpmrZUm_xa6wAywqPivEtdZWmh9dLhTn5Fmtv-0Ohp3sRno=w1653-h879-s-no-gm?authuser=0)
+3. Lưu ý load bệnh nhân theo đối tượng và theo kho cấp phát theo cấu hình: nếu cấu hình mà đối tượng chưa có kho cấp phát
+![](https://lh3.googleusercontent.com/pw/AP1GczOKq0Bi0kLsDf-4adAxmLP1YgDyo6WMIxgRJ1yQiM74vNK4KFJ2Xi-bWTYKxDndO-v8Lsx-6LsDIILqtwdaUh9Rsq1LS5ovsp0ijbNABxpPgxLYgxRTl6LPz3Dy7f7Ccx7G_ozU2G4YzRHgxYMD45oA=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM1AbvnAqLyFsGMLR4-mU6UL6yoanOY0l_B_yNncPy27N80sqyImxYS0dI8wi6y3GOViOkcCwZ1HHYgYXrm1SBRixVN3Qg6bEhXv86-C-Wo-AT_tgMtZ8q0xEMdhWpnGi0pT5U558BMkouHPsOmy8N3=w1330-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/784#issuecomment-28877
+
 ## [v.3.26.0529.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32605290-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bệnh án ngoại trú hỗ trợ điều chỉnh ngày diễn biến trước ngày theo mô tả [THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md).
