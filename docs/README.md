@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0608.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606080-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung tự động tính chỉ số BMI trên form thông tin sinh hiệu theo mô tả: [THONG-TIN-BENH-NHAN/Chi-so-BMI.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Chi-so-BMI.md). Chỉ số BMI tự thay đổi khi cân nặng hoặc chiều cao thay đổi giá trị.
+![](https://lh3.googleusercontent.com/pw/AP1GczM1yxUP_CUcC3cdYiaWS83c_fFkRlvYeZ7KlX4eXKTo3JJcjF-ofsBq0pxKdllTAmZGrtTtsSh9hspIDmGne71tF_Mlj6Wx64pzg6cFct7u1cX9bz2pax_2KE0o_XXeo3mnsYklGR-89704d7KWCGi6=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/777#issuecomment-29272
+
 ## [v.3.26.0605.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606050-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung tự động tính chỉ số BMI trên form thông tin sinh hiệu theo mô tả: [THONG-TIN-BENH-NHAN/Chi-so-BMI.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Chi-so-BMI.md).
