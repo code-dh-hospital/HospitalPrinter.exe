@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0629.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606293-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606293-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606293-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Mẫu bảng kê chi phí KCB mới theo QĐ 697/QĐ-BYT ngày 19/3/2026
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
+- 📕: Bổ sung option sử dụng ký số cho kế toán viện phí
+- 📕: Demo ký số kế toán viện phí cho bảng kê 6556
+- 📕: Đặt lại tên Gói thiết bị y tế cho nhóm 10 thể hiện trên bảng kế
+
+![](https://i.vgy.me/uo4GDW.png)
+
+![](https://i.vgy.me/jvh9ME.png)
+
 ## [v.3.26.0629.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32606292-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi phiếu 01 theo QĐ6556 không hiển thị được chữ ký người bệnh.
