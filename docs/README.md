@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0706.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607060-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi tách sai chi phí thuộc đối tượng miễn phí nhưng tách ra thêm 1 bảng kê BHYT 
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
+
+![](https://i.vgy.me/gL0hV3.png)
+
 ## [v.3.26.0701.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607010-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung Option 6556 và para để tuỳ chọn ký số cho Người lập bảng kê.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
