@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0730.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607300-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung `mabvbh = 74167`, cho phép in tem chỉ định uống toa thuốc theo mô tả [CHUC-NANG-RIENG/Chuc-nang-in-tem-chi-dinh-uong-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/Chuc-nang-in-tem-chi-dinh-uong-toa-thuoc.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczOlVwIh_99a9tq1RV-ajMe_lzmKF0Jf1_ClT3RKz7f7R-FfmpO4FkV2in437Xz1IF-GpM72zfTB4yauJamQVZ5Eo-k_2438ph1REDYxde3l5_wi9MxKWmbmZLyb8r_YTsuV35nJQFdZ8C1ueJzBcuYI=w1658-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMxLMUde-TU_0CZz2VWyCiXSp2InfKCZvGrQJCqKLnzYIJvmT0L2-p-AZxZtQVY7z_9-hWFw-zInSTqE4rycRWqmdWlx1lrStvKNyuHsGe4mgdZaYu_gD00bDnuj29oxM7wUPcXsdcoPKRVye9SAX9S=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/859#issuecomment-31565
+
 ## [v.3.26.0729.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Printer: In toa thuốc không in được chữ ký số lên toa (PK Minh Quang) #947
 ![](https://i.vgy.me/yiZNPU.png)
