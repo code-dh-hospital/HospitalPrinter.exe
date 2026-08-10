@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0810.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608100-NasDHSolutions.json)</sup></sup></sub>
+
+
+- 🐛: Sửa lỗi XML4750/XML3175 `bang3.NGAY_KQ` lấy sai giờ trả kết quả.
+![](https://lh3.googleusercontent.com/pw/AP1GczNZuEVEcnlaX0nFPuw9244OJGJBD_SHp-_ga2R6a4Gn3Zk6txUT4eHKylw_U11bYM6Uuq2R-0ZDrpT4kf0Zz1NJpISg9sPnGToVDHS9S5Wz3DwRJUUAxXtullL7az69428JRBf6rfwX-qSAc_im2yfh=w1555-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/952#issuecomment-31851
+
 ## [v.3.26.0730.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32607300-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung `mabvbh = 74167`, cho phép in tem chỉ định uống toa thuốc theo mô tả [CHUC-NANG-RIENG/Chuc-nang-in-tem-chi-dinh-uong-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/Chuc-nang-in-tem-chi-dinh-uong-toa-thuoc.md).
