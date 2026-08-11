@@ -6,6 +6,44 @@
 
 #
 
+## [v.3.26.0811.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608111-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Prescription, Printer bảng kê bệnh nhân ngoại trú in thiếu tên chẩn đoán phụ (BV Ngã Năm) #953
+	- PRINTER: cập nhật para: TEN_BENH_KEM_THEO
+	
+	+ Lấy chẩn đoán kèm theo, theo option:
+
+	![](https://i.vgy.me/AHeZlO.png)
+
+	+ Lấy tất cả chẩn đoán kèm theo:
+
+	![](https://i.vgy.me/9iLQCV.png)
+
+	+ Lấy lấy chẩn đoán kèm theo, theo phòng:
+
+	![](https://i.vgy.me/QruNzE.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/953
+<<<<<<< HEAD
+
+## [v.3.26.0811.0]()
+- ✨: Lỗi - Prescription, Printer bảng kê bệnh nhân ngoại trú in thiếu tên chẩn đoán phụ (BV Ngã Năm) #953
+	- PRINTER: cập nhật para: TEN_BENH_KEM_THEO
+	
+	+ Lấy chẩn đoán kèm theo, theo option:
+
+	![](https://i.vgy.me/AHeZlO.png)
+
+	+ Lấy tất cả chẩn đoán kèm theo:
+
+	![](https://i.vgy.me/9iLQCV.png)
+
+	+ Lấy lấy chẩn đoán kèm theo, theo phòng:
+
+	![](https://i.vgy.me/QruNzE.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/953
+=======
+
 ## [v.3.26.0810.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608100-NasDHSolutions.json)</sup></sup></sub>
 
 
