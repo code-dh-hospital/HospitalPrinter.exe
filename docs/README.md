@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0813.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bổ sung parameters liều dùng, sáng, trua, chieu, toi trên toa thuốc YHCT (TT55)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/849
+- 📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/BO_SUNG_TOA_THUOC_THANG_TT55_2025TT_BYT.md
+- 📕: Lấy thêm thông tin sáng, trưa, chiều, tối để hỗ trợ in toa thuốc thang/YHCT theo TT55
+
+![](https://i.vgy.me/FuN5fA.png)
+
 ## [v.3.26.0811.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Prescription, Printer bảng kê bệnh nhân ngoại trú in thiếu tên chẩn đoán phụ (BV Ngã Năm) #953
 	- PRINTER: cập nhật para: TEN_BENH_KEM_THEO
