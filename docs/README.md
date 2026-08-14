@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0814.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608140-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng in tem cách dùng để dán lên vĩ thuốc (Phòng khám Sầm Sơn) theo mô tả [CHUC-NANG-RIENG/Chuc-nang-in-tem-chi-dinh-uong-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/Chuc-nang-in-tem-chi-dinh-uong-toa-thuoc.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNV1dMm8HxdozM6l6_MLYHEKFrbQGY5sTaVFrOfKzPUznkjYP4KQGDpBxgQaPFSxF6WhMRlFV_pYzuZBYHcWwkge6-KHqL6vJraqT9Eu6QxLJqqB5l4vQyDzkjPVgMjw10bAnQwHk-753T1BXlaO89b=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNvHLlS33KIHKf-KpAGOlK2wgk-g6OO08rALbaYOkNir1JynAXly6r3e1UR3k8gm3k5xxaBjm7ZvWgshkw0WllSDxSKu5TFVKA5zz0D0_Aqq9y-0uXIFEDrRsedBTKBOS2bD0lhgn0q1gmKLnvmStZh=w1659-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/881#issuecomment-32938 (hdhiswork/YEUCAU#881)
+
 ## [v.3.26.0813.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608130-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bổ sung parameters liều dùng, sáng, trua, chieu, toi trên toa thuốc YHCT (TT55)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/849
