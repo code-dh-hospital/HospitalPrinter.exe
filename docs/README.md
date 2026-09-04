@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0904.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [Printer & HosPrinter.BangKe] Sửa hàm UpdateDain trong FrmXKXuatBL để bảo lưu tài khoản in ban đầu (userin) khi in lại chứng từ xuất bán lẻ quầy thuốc: sử dụng COALESCE(NULLIF(userin, ''), '<username>') khi cập nhật current.chungtu và current.pshdxn.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/908
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/19
+- 📗: Cập nhật current.chungtu và current.pshdxn bảo lưu userin ban đầu.
+- 📕: Vào Phân hệ Printer / Medicine -> Xuất kho -> Xuất bán lẻ: khi in lại chứng từ đã in, hệ thống bảo lưu nguyên vẹn tài khoản người in đầu tiên.
+- Thực hiện theo mô tả [BỔ SUNG THÔNG TIN TÀI KHOẢN VÀ BẢO LƯU NGƯỜI IN KHI THỐNG KÊ THANH TOÁN QRCODE NHÀ THUỐC](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/FEES/Hau-mo-ta-bo-sung-thong-tin-tai-khoan-khi-thong-ke-thanh-toan-qrcode.md)
+  ![](https://images-worker.tlt24.workers.dev/i/01a06b3c-cdf4-760a-884f-95e21afdc257)
+
 ## [v.3.26.0824.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32608240-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi chức năng kiểm tra thông tuyến => Sửa lỗi form hiệu chỉnh thông tin bệnh nhân sau khi kiểm tra thông tuyến/lưu: ghi nhận sai họ tên, giới tính, ngày kết thúc thẻ, ngày đủ 5 năm, ...
