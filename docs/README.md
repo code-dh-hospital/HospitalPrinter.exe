@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0908.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609080-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [HospitalPrinter & HosPrinter] Mở rộng in ấn thẻ BHYT và các mẫu phiếu tiếp nhận, bảng kê chi phí KCB tương thích trọn vẹn với mã thẻ BHYT 17 ký tự (mã số CCCD).
+- 🐛: [HospitalPrinter] Đảm bảo mẫu in hiển thị đầy đủ 17 ký tự mã thẻ, không bị tràn dòng hay cắt bớt 2 ký tự cuối.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/909
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/25
+- Thực hiện theo mô tả [MỞ RỘNG HỖ TRỢ MÃ THẺ BHYT 17 KÝ TỰ (CCCD/ĐDCN)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Thong-mo-ta-Mo-rong-ho-tro-ma-the-BHYT-17-ky-tu-CCCD.md)
+- 📗: current.psdangky, current.dmthebhyt
+- 📕: Mẫu in phiếu đăng ký tiếp nhận và thẻ khám bệnh BHYT 17 ký tự.
+- ✨: [HospitalPrinter & HosPrinter] Tích hợp `LibraryApp.ClsBanQuyen.ApplyMainForm` tại `FrmMain_Load` (trước khi đăng nhập) và `ApplyChildForm` trong constructor của `FrmHome`, tự động đổi tiêu đề thành `DH.HIS Printer`, nạp ảnh nền `background_dh.png` ngay từ bước khởi động ban đầu, cập nhật bản quyền DH và tự động quét ẩn nhóm Trợ giúp (ebPrinter.Groups["trogiup"]) khi `DHHIS_BANQUYEN=1`.
+- 🐛: Khắc phục việc menu Trợ giúp chưa bị ẩn trên Janus ExplorerBar và ảnh nền FrmHome phải đợi sau khi đăng nhập mới hiển thị.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34
+- 📗: Độc lập 100% CSDL PostgreSQL, không dùng `current.system`.
+- 📕: Thực hiện theo mô tả [Bổ sung key chức năng riêng quản lý nâng cấp version DHG.Hospital thành DH.HIS](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/DUAN34_NangCap_Version_DHHIS_BanQuyen.md).
+
+![](https://images-worker.tlt40.workers.dev/i/01a07f0f-6a88-75df-9d3f-5519df9a8612)
+![](https://images-worker.tlt37.workers.dev/i/01a07f15-70bd-7b34-a6d6-b5aa1e3a1fa7)
+![](https://images-worker.tlt33.workers.dev/i/01a07f11-332c-7292-8740-11ad3b851c5f)
+
 ## [v.3.26.0904.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [Printer & HosPrinter.BangKe] Sửa hàm UpdateDain trong FrmXKXuatBL để bảo lưu tài khoản in ban đầu (userin) khi in lại chứng từ xuất bán lẻ quầy thuốc: sử dụng COALESCE(NULLIF(userin, ''), '<username>') khi cập nhật current.chungtu và current.pshdxn.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/908
