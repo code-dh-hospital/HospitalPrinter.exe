@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0908.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609081-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Printer & HosPrinter] Gom và xử lý chung giải thuật phân rã mã thẻ BHYT hiển thị trên 6 ô TextBox (`txtMT1` đến `txtMT6`), hỗ trợ đồng bộ cả thẻ 15 ký tự cũ và thẻ 17 ký tự mới (theo CCCD) tại `txtMaThe_TextChanged`
+- 🐛: [Printer & HosPrinter] Sửa lỗi không hiển thị thông tin thẻ BHYT 17 ký tự trên form In phiếu KCB do điều kiện cũ chỉ chấp nhận duy nhất độ dài 15 ký tự và xóa trắng các ô mã thẻ (`setNullMaThe()`)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/909
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/25
+- 📗: Tương thích với cột `mathe` trong `current.dmthebhyt`, `current.psdangky` (varchar 255)
+- 📕: Phân hệ In ấn (HospitalPrinter.exe) -> Form In phiếu KCB (`FrmInPhieuKCB`, `FrmInPhieuKCB111`, `FrmInPhieuKCB_20220328`), tự động hiển thị đầy đủ thông tin mã thẻ BHYT 15 và 17 ký tự khi chọn bệnh nhân
+- Thực hiện theo mô tả [Mở rộng hỗ trợ mã thẻ BHYT 17 ký tự (CCCD/ĐDCN)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Mo-ta-Mo-rong-ho-tro-ma-the-BHYT-17-ky-tu-CCCD.md)
+  ![](https://images-worker.tlt24.workers.dev/i/01a08003-fde2-7993-a2f1-27c6e30a536b)
+
 ## [v.3.26.0908.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609080-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [HospitalPrinter & HosPrinter] Mở rộng in ấn thẻ BHYT và các mẫu phiếu tiếp nhận, bảng kê chi phí KCB tương thích trọn vẹn với mã thẻ BHYT 17 ký tự (mã số CCCD).
 - 🐛: [HospitalPrinter] Đảm bảo mẫu in hiển thị đầy đủ 17 ký tự mã thẻ, không bị tràn dòng hay cắt bớt 2 ký tự cuối.
