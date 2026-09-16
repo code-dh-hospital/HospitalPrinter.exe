@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0916.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tích hợp máy quét vân tay ký mẫu bảng kê chi phí KCB 697 #865
+[Driver máy quét vân tay ZKTeco](https://gofile.me/78TQg/je9yDymWN)
+[Mô tả tích hợp](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-tich-hop-chuc-nang-quet-van-tay.md)
+![](https://i.vgy.me/1ieebG.png)
+![](https://i.vgy.me/ZcUHBX.png)
+![](https://i.vgy.me/v0BqAC.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/865
+
 ## [v.3.26.0911.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cấu hình BuildZip|AnyCPU (xuất bin\BuildZip) + Pre/PostBuildEvent gọi visualstudio-external-tool.js; nhận Resources/Roo.Exe.dll.zip đóng gói tự động khi build Roo.Exe
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/845
