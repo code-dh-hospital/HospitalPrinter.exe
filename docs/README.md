@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0924.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609240-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đóng gói OTH.Entity đã sửa — in bảng kê không còn báo lỗi 'Lỗi thao in phiếu / No transaction in progress' (AGiamDinh.SaveXML130 INSERT current.psxml).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/865
+- 📕: Thực hiện theo mô tả [SỬA LỖI "NO TRANSACTION IN PROGRESS" KHI IN BẢNG KÊ (LƯU XML130 VÀO CURRENT.PSXML)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Mo-ta-sua-loi-no-transaction-in-bang-ke-luu-xml130-current-psxml.md)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-othentity-bkxml917-insertpsxml.png)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-prescription-frmbenhanngoaitru-inbangkebantdot.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-prescription-frmbenhanngoaitru-ketthucdieutribant.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-printer-frminphieukcb-inbangke.png)
+
 ## [v.3.26.0923.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609230-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Đóng gói lại `HosReg.Plus.dll` mới nhất — sửa lỗi chức năng "Hiệu chỉnh thông tin bệnh nhân" (`FrmHieuChinhBN.cs`, nút "KTTT") không cảnh báo khi kiểm tra thông tuyến thất bại hoặc không trả về "ngày đủ 5 năm liên tục" BHYT.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015
