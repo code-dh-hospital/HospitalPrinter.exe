@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0925.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609250-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đóng gói HosReg.Plus.dll đã sửa - 'Hiệu chỉnh thông tin bệnh nhân' (FrmHieuChinhBN): bấm KTTT khi chưa bấm 'Chỉnh' nay hỏi chuyển sang Chỉnh và gán 'ngày đủ 5 năm liên tục' từ Cổng BHXH (Cổng không trả về thì cảnh báo), thay vì bỏ qua kết quả như trước.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015
+- 📕: Thực hiện theo mô tả [Mo-ta-Canh-bao-thieu-ngay-5-nam-lien-tuc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH-THONGTUYEN/Mo-ta-Canh-bao-thieu-ngay-5-nam-lien-tuc.md)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-hosreg-frmhieuchinhbn-kttt-chedoxem-ngay5nam-1.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-hosreg-frmhieuchinhbn-kttt-chedoxem-ngay5nam-2.png)
+
 ## [v.3.26.0924.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609240-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Đóng gói OTH.Entity đã sửa — in bảng kê không còn báo lỗi 'Lỗi thao in phiếu / No transaction in progress' (AGiamDinh.SaveXML130 INSERT current.psxml).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/865
