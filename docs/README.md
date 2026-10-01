@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1001.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610011-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Không có
+- 🐛: Cập nhật DLL liên quan OTH.Adapter: Sửa lỗi Bảng kê 697 lấy sai tên bệnh kèm theo ngoại trú và Bệnh án ngoại trú BANT. Khắc phục triệt để lỗi bản quyền Trial DevExpress thông qua InMemoryPatch v8 và bổ sung khai báo control XtraEditors trong licenses.licx.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1006
+- 📗: Không thay đổi cấu trúc bảng CSDL.
+- 📕: Thực hiện theo mô tả [Mo-ta-Sua-loi-bang-ke-697-sai-ten-benh-kem-theo.md](../../Mo-ta-he-thong/Quyet-dinh-697/Mo-ta-Sua-loi-bang-ke-697-sai-ten-benh-kem-theo.md): Đồng bộ hiển thị Bảng kê chi phí KCB 697 cho phân hệ Printer. Ảnh minh họa: https://i.vgy.me/4cJOb8.png
+
+<div align="center">
+
+# Nhật ký thay đổi</div>
+
+<div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
+
 ## [v.3.26.1001.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610010-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung tự động gán ngày 5 năm liên tục khi kiểm tra thông tuyến BHYT
 - 🐛: Khắc phục lỗi mất ngày 5 năm và bỏ cảnh báo sai lỗi mạng khi bấm Bỏ qua
