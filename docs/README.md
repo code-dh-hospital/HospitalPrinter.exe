@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1001.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610010-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung tự động gán ngày 5 năm liên tục khi kiểm tra thông tuyến BHYT
+- 🐛: Khắc phục lỗi mất ngày 5 năm và bỏ cảnh báo sai lỗi mạng khi bấm Bỏ qua
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015
+- 📗: Bảng current.psdangky trường ngay5nam
+- 📕: Đóng gói EXE Printer với DLL cập nhật: HosReg.Plus
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-hosreg-frmhieuchinhbn-kttt-ngay5nam.gif)
+
 ## [v.3.26.0925.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32609252-NasDHSolutions.json)</sup></sup></sub>
 - ✨: 
 - 🐛: Sửa lỗi in bảng kê 697 của BANT lần 1 lấy sai mã đối tượng (1.1 thay vì 1.16) và lặp đôi tên bệnh kèm theo
