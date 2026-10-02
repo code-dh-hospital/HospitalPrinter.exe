@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1002.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610020-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Không có
+- 🐛: Cập nhật build phân hệ Printer đồng bộ OTH.Adapter v1.26.1001.1: Sửa lỗi Bảng kê 697 lấy sai tên bệnh kèm theo ngoại trú và Bệnh án ngoại trú BANT. Khắc phục triệt để lỗi bản quyền Trial DevExpress qua licenses.licx.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1006
+- 📗: Không thay đổi cấu trúc bảng CSDL; đọc chẩn đoán từ bảng current.khambenh.
+- 📕: Thực hiện theo mô tả [Mo-ta-Sua-loi-bang-ke-697-sai-ten-benh-kem-theo.md](../../Mo-ta-he-thong/Quyet-dinh-697/Mo-ta-Sua-loi-bang-ke-697-sai-ten-benh-kem-theo.md): Đồng bộ hiển thị Bảng kê chi phí KCB 697 cho phân hệ Printer. Ảnh kiểm chứng: https://i.vgy.me/gUd5HD.png
+
 ## [v.3.26.1001.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610011-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Không có
 - 🐛: Cập nhật DLL liên quan OTH.Adapter: Sửa lỗi Bảng kê 697 lấy sai tên bệnh kèm theo ngoại trú và Bệnh án ngoại trú BANT. Khắc phục triệt để lỗi bản quyền Trial DevExpress thông qua InMemoryPatch v8 và bổ sung khai báo control XtraEditors trong licenses.licx.
