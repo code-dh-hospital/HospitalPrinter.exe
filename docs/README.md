@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.26.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung tiếp nhận và truyền ngày đủ 5 năm liên tục khi kiểm tra thông tuyến BHYT tại các nút Kiểm tra thông tuyến trên phân hệ In ấn (Printer) qua HosReg.Plus
+- 🐛: Khắc phục lỗi khi gọi hàm setCheckMaThe kiểm tra thông tuyến trên màn hình Hiệu chỉnh thông tin bệnh nhân (FrmHieuChinhBN), đảm bảo bệnh nhân đã có ngày 5 năm trên hệ thống khớp đúng ngày 5 năm, không bị cảnh báo sai lệch thẻ hoặc hiện popup hỏi cập nhật ngày 5 năm
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015#issuecomment-46368 (hdhiswork/LOI#1015)
+- 📗: Lấy giá trị ngày đủ 5 năm từ control cboNgay5Nam (tương ứng trường ngay5nam bảng current.psdangky) truyền vào hàm setCheckMaThe
+- 📕: Phân hệ In ấn (Printer) - Hiệu chỉnh thông tin bệnh nhân: hệ thống kiểm tra và khớp đúng ngày 5 năm, không cảnh báo sai lệch
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-prescription-frmhieuchinhbn-kttt-khop-ngay5nam.png)
+
+## [v.3.26.1006.0]()
+- ✨: Đồng bộ nhận diện thương hiệu DH.HIS theo biến môi trường DHHIS_BANQUYEN=1: nạp thư viện LibraryApp mới, tự động đổi hình nền đăng nhập FrmDangNhap theo tông màu y tế background_dh, chuẩn hóa thanh trạng thái Status Bar 4 ô với biểu tượng logoDH và gán tiêu đề Form Home DH.HIS Printer.
+- 🐛: Khắc phục lỗi kiểm tra kết nối ClsConnection.v_conn trong FrmDangNhap, đảm bảo phân hệ khởi chạy an toàn khi kiểm thử hoặc ngoại tuyến.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34#issuecomment-46526 (hdhiswork/DUAN#34)
+- 📗: Không thay đổi cấu trúc bảng hay dữ liệu PostgreSQL, cơ chế bản quyền chạy độc lập hoàn toàn với CSDL.
+- 📕: Khi biến môi trường DHHIS_BANQUYEN=1:
+  1. Giao diện đăng nhập FrmDangNhap chuyển sang hình nền nhận diện DH.HIS, loại bỏ thương hiệu cũ DHG Pharma.
+  2. Tiêu đề Form Home chuyển thành DH.HIS Printer.
+  3. Thanh trạng thái Status Bar chuẩn hóa 4 ô: Tháng làm việc: MM/YYYY | Tài khoản đăng nhập: Fullname | [logoDH] Bản quyền © 2020-2026 thuộc về DH | Phiên bản: <version>.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmdangnhap-giaodien-default.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmdangnhap-giaodien-dhhis.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmhome-tieude-12phanhe.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-statusbar-thanhtrangthai-dhhis.png)
+
 ## [v.3.26.1005.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: 
 - 🐛: Cấu hình Bảng kê 6556: Bổ sung ghi chú rõ ràng cho tùy chọn "Lấy giá BHYT làm giá bệnh viện (Không áp dụng cấu hình chi phí trên cùng 1 trang in)" và "Chi phí thuộc BHYT và ngoài BHYT trên cùng 1 trang in (Chỉ áp dụng lấy giá bệnh viện thực tế)" để người dùng nắm rõ quy tắc ràng buộc in tách 2 trang khi lấy giá BHYT.
