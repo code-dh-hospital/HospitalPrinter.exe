@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1012.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa in toa nhà thuốc nội trú tại Printer theo tham số tt05 và dùng chung mẫu DevExpress XtraReport ToaThuoc_TT05
+- 🐛: Sửa lỗi Printer in toa nhà thuốc nội trú không lấy được thông tin hoạt chất, hàm lượng theo tham số tt05
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1038
+- 📗: Bổ sung các trường `tenhc`, `hamluong`, `dachat`, `tenhh_goc` vào query `getChungTuDetail` (`current.pshdxn` JOIN `current.dmthuoc`), đọc cấu hình `tt05` từ `current.system`
+- 📕: In toa nhà thuốc nội trú tại `Printer` (`XfrmInToa`) định dạng tên thuốc theo `tt05 = 5` (thuốc đơn chất: `[tên hoạt chất] ([tên thuốc] [hàm lượng])`, thuốc đa chất: giữ nguyên tên thương mại); đồng bộ mẫu in `Prescription_ToaThuoc_TT05` thống nhất với `Prescription`
+![In toa nhà thuốc nội trú theo tham số TT05 tại Printer](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1038/debug-image-printer-xfrmintoa-preview-tt05.png)
+
 ## [v.3.26.1009.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610090-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Bổ sung lại mã CSKCB 79426 - Viện Y Dược Học Dân Tộc (TP HCM) vào danh sách đơn vị MaBVBH
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/953
