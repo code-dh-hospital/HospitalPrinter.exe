@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.26.1013.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610130-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Sửa lỗi HospitalPrinter không hiển thị ghi chú số lượng phim X-quang/CT/MRI trên bảng kê chi phí KCB 697 khi in phiếu KCB (đồng bộ hiển thị với Prescription)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/958
+
 ## [v.3.26.1012.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa in toa nhà thuốc nội trú tại Printer theo tham số tt05 và dùng chung mẫu DevExpress XtraReport ToaThuoc_TT05
 - 🐛: Sửa lỗi Printer in toa nhà thuốc nội trú không lấy được thông tin hoạt chất, hàm lượng theo tham số tt05
