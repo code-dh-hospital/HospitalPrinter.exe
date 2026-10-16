@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1016.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung trường thông tin Email và cơ chế tự động lấy email trên form Viện phí Nhà thuốc (XFrmVPNhaThuoc) khi lập phiếu thu tiền thuốc tại quầy dược; tự động ưu tiên lấy email từ phiếu thu gần nhất hoặc hồ sơ bệnh nhân phục vụ xuất hóa đơn điện tử.
+- 🐛: Đồng bộ dữ liệu email khi in và xuất hóa đơn điện tử nhà thuốc.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/960
+- 📗: current.thuchi (cột email), current.dmbenhnhan (cột email)
+- 📕: Phân hệ In ấn & Quầy Dược (HospitalPrinter): Viện phí Nhà thuốc (XFrmVPNhaThuoc).
+![](https://i.vgy.me/AfhjPq.png)
+
 ## [v.3.26.1015.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: In phiếu ký số (toa thuốc...): bác sĩ chưa cấu hình chữ ký số thì cảnh báo tài khoản chưa cấu hình và in phiếu không ký số, không còn báo lỗi chặn in.
 - 🐛: Printer In toa thuốc + Mẫu BHYT báo lỗi "Ký số thất bại ... chưa được cấu hình thông tin ký số" và không in được toa (LOI #1044).
