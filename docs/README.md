@@ -6,6 +6,35 @@
 
 #
 
+## [v.3.26.1017.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hoàn thiện tính năng ký số Bảng kê chi phí KCB (Mẫu 01/KBCB - QĐ 6556) theo chuẩn EMR mới:
+  - Bổ sung cấu hình khoảng cách thời gian ký số KhoangCachGiayKySo (mặc định 10 giây) trên Form cấu hình phiếu 01 (XFrmBK6556Option.cs), lưu trữ vào printer_bk6556_option (current.coderun).
+  - Lấy ngày ký bệnh nhân ngayky từ bảng public.pschuky hiển thị lên tham số báo cáo tại cụm "Xác nhận của người bệnh" trên Mẫu 01.
+  - Chuẩn hóa quy trình ký số kép tuần tự (Dual Sign) giữa Người lập bảng kê (lượt 1, SIGN:1) và Kế toán viện phí (lượt 2, SIGN:2) với độ trễ giãn cách tự động N giây, đảm bảo mốc thời gian ký hợp lệ.
+  - Tích hợp chuẩn hóa ngữ cảnh EMR (DHEmrContext), sinh mã phiếu nghiệp vụ phân định theo số thứ tự phiếu (mabn_makb_maba_1 cho BHYT, mabn_makb_maba_2 cho Ngoài BHYT), định danh UUID v7 tất định độc lập và đồng bộ tên phiếu TenPhieu sang Backend NodeJS EMR.
+  - Xử lý triệt để xung đột định danh khi in tách trang (KhacTrangIn): Phiếu 1 (BHYT) và Phiếu 2 (Ngoài BHYT/Thu phí) mang mã định danh UUID v7 riêng biệt, không bị hiểu nhầm đã ký và in lặp lại.
+  - Chuẩn hóa metadata gửi sang NodeJS Gateway: lượt 1 manv = 068, lượt 2 manv = 077; thiết lập is_hoso_emr = 0 đối với các chứng từ in ấn tại Printer/Prescription.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/916
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/165
+- 📗: [Mo-ta-hoan-thien-ky-so-bang-ke-01-kcbc.md](../../Mo-ta-he-thong/Chu-ky-so/Mo-ta-hoan-thien-ky-so-bang-ke-01-kcbc.md)
+- 🐛: Sửa lỗi HospitalPrinter không hiển thị ghi chú số lượng phim X-quang/CT/MRI trên bảng kê chi phí KCB 697 khi in phiếu KCB (đồng bộ hiển thị với Prescription)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/958
+- ✨: In phiếu ký số (toa thuốc...): bác sĩ chưa cấu hình chữ ký số thì cảnh báo tài khoản chưa cấu hình và in phiếu không ký số, không còn báo lỗi chặn in.
+- 🐛: Printer In toa thuốc + Mẫu BHYT báo lỗi "Ký số thất bại ... chưa được cấu hình thông tin ký số" và không in được toa (LOI #1044).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1044
+- 📗: Cập nhật DLL liên quan: XtraRPT (CallSignAPI, ShowPdfSignVerificationForm). Không phát sinh cột mới. Thực hiện theo mô tả [Mô tả lỗi 1044 - in phiếu khi tài khoản chưa cấu hình chữ ký số](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Chu-ky-so/Mo-ta-loi-1044-in-phieu-khi-tai-khoan-chua-cau-hinh-chu-ky-so.md)
+- 📕: Cập nhật Printer, OTH.XForms, XtraRPT, DH.ChuKySo, OTH.XReports.
+### Hình ảnh kiểm chứng thực tế (Evidence)
+| Tên ảnh | Mô tả chức năng kiểm thử | Hình ảnh giao diện |
+| :--- | :--- | :--- |
+| `debug-image-printer-frmmain-inphieukcb-tongchiphi.png` | Giao diện DHG.Hospital Printer - In phiếu KCB tổng hợp chi phí BN Bùi Thị Cẩm Hiền (710.780đ) | ![In phiếu KCB](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-frmmain-inphieukcb-tongchiphi.png) |
+| `debug-image-prescription-donthuoc-daky-easyca.png` | Đơn thuốc ngoại trú đã ký số EasyCA của BS Nguyễn Thị Hồng Vân | ![Đơn thuốc ký số](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-prescription-donthuoc-daky-easyca.png) |
+| `debug-image-printer-phieu01-bhyt-daky-2cap.png` | Phiếu 1: Bảng kê chi phí BHYT (Mẫu 01/KBCB - 458,480đ) đã ký số 2 cấp (người lập 068 và kế toán 077) | ![Phiếu 01 BHYT](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-bhyt-daky-2cap.png) |
+| `debug-image-printer-phieu01-ngoaibhyt-thuphi-daky-2cap.png` | Phiếu 2: Bảng kê chi phí ngoài BHYT (Phiếu thu phí - 252,300đ) đã ký số 2 cấp độc lập | ![Phiếu Ngoài BHYT](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-ngoaibhyt-thuphi-daky-2cap.png) |
+| `debug-image-emrweb-bangke-chiphikcb-daky-2phieu-thanhcong.png` | Hệ thống EMR Web xác nhận cả 2 phiếu ký thành công độc lập kèm lịch sử ký 2 cấp chi tiết | ![Web EMR xác nhận](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-emrweb-bangke-chiphikcb-daky-2phieu-thanhcong.png) |
+| `debug-image-printer-xfrmbk6556option-khoangcachgiay.png` | Form cấu hình phiếu 01 (QĐ6556) bổ sung ô SpinEdit cấu hình khoảng cách thời gian ký (1 - 300 giây, mặc định 10s) | ![Cấu hình giãn cách ký số](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-khoangcachgiay.png) |
+| `debug-image-printer-frmmain-fullflow.png` | Khởi chạy HosPrinter.FrmMain qua FullFlow Launcher, tự động xử lý đăng nhập và mở màn hình in ấn | ![HosPrinter FullFlow FrmMain](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-frmmain-fullflow.png) |
+
 ## [v.3.26.1016.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung trường thông tin Email và cơ chế tự động lấy email trên form Viện phí Nhà thuốc (XFrmVPNhaThuoc) khi lập phiếu thu tiền thuốc tại quầy dược; tự động ưu tiên lấy email từ phiếu thu gần nhất hoặc hồ sơ bệnh nhân phục vụ xuất hóa đơn điện tử.
 - 🐛: Đồng bộ dữ liệu email khi in và xuất hóa đơn điện tử nhà thuốc.
