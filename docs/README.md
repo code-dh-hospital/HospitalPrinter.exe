@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1021.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hoàn thiện ký số bảng kê 01/KBCB: Đồng bộ ô SpinEdit cấu hình khoảng cách ký số (1 - 300s), kiểm tra điều kiện phát sinh chi phí thực tế trước khi in từng bảng kê theo loại chi phí, cố định `ngayKcb` để sinh `IdHoSo` v7 tất định cho tra cứu Server-First, và tự động vẽ dòng thời gian xác nhận dưới dấu vân tay/chữ ký người bệnh.
+- 🐛: Sửa lỗi in bảng kê ra 3 bản 01/KBCB dù chỉ có BHYT; Sửa lỗi in lại bảng kê bị sinh thời gian ký số mới dù chưa mở khóa; Sửa lỗi form cấu hình phiếu 01 chưa lưu khoảng cách thời gian ký; Bổ sung hiển thị thời gian xác nhận dưới vân tay bệnh nhân.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/916
+- 📗: Đọc `current.khambenh.ngaykcb` và `public.pschuky.ngayky` (CSDL đính kèm); Lưu `Option.KhoangCachGiayKySo` vào `current.coderun: printer_bk6556_option`.
+- 📕: Quản trị viên cấu hình khoảng cách ký số trên form Phiếu 01; Khi in bảng kê 01/KBCB, hệ thống in đúng phân nhóm có chi phí, hiển thị thời gian xác nhận vân tay và bảo toàn bản ký số gốc khi in lại.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-khoangcachgiay.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-reportdesigner-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-kyso-ngaykybenhnhan.png)
+
 ## [v.3.26.1017.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hoàn thiện tính năng ký số Bảng kê chi phí KCB (Mẫu 01/KBCB - QĐ 6556) theo chuẩn EMR mới:
   - Bổ sung cấu hình khoảng cách thời gian ký số KhoangCachGiayKySo (mặc định 10 giây) trên Form cấu hình phiếu 01 (XFrmBK6556Option.cs), lưu trữ vào printer_bk6556_option (current.coderun).
