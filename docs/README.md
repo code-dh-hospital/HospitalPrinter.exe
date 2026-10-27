@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610270-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đồng bộ cấu hình và thư viện in ấn với các phân hệ HosPrinter, HospitalToaThuoc, XtraRPT phục vụ kiểm thử và phát hành HospitalPrinter.exe mới.
+- 🐛: Sửa lỗi không in được toa thuốc YHCT và bảng kê 697 khi dịch vụ ký số không sẵn sàng, đồng thời khắc phục lỗi in trực tiếp không nhận đúng số bản in cấu hình (iCopies).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1066
+- 📗: CSDL an_yhct_lechxml01_19102026.
+- 📕: Phân hệ Printer in ấn thông suốt toa thuốc và bảng kê viện phí ngay cả khi dịch vụ chữ ký số gặp sự cố hoặc chưa cấu hình; đảm bảo lấy đúng số bản in và in đủ liên ra máy in.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1066/debug-image-printer-frminphieukcb-kiem-thu-thanh-cong.png)
+
 ## [v.3.26.1021.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610211-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa nhãn "Khoảng cách thời gian ký tối thiểu giữa Người lập và Kế toán (giây)" trên Form Cấu hình phiếu 01 (QĐ6556), giải quyết triệt để lỗi biên dịch trung gian giữa OTH.XForms.v.1.0 và OTH.XForms; bảo toàn đầy đủ các tính năng ký số 2 cấp và ngày ký bệnh nhân trên phiếu 01.
 - 🐛: Sửa lỗi Tester kiểm tra chưa thấy ô cấu hình khoảng cách thời gian ký tối thiểu trên Form Cấu hình phiếu 01 của HospitalPrinter.exe.
