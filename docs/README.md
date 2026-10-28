@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.1028.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610282-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung tham số Parameter `pNgayGioKyBenhNhan` và 02 thuộc tính `NgayGioKyBenhNhan_Format`, `ThoiGianKyBenhNhan` vào model bảng kê chi phí KCB; Cải tiến sự kiện `BeforePrint` trên mẫu in Bảng kê 01 (`XRptBKChiPhiKCB6556`) tự động nhận diện và tôn trọng 100% `FormatString` của người dùng (ví dụ `{0:dd/MM/yyyy h:mm tt}` hoặc `{0:HH:mm:ss dd/MM/yyyy}`).
+- 🐛: Khắc phục triệt để lỗi kéo thả trường `Footer.NgayKyBenhNhan` vào mẫu in tự thiết kế nhưng không hiển thị được giờ ký (bị biến thành ngày chữ hoặc để rỗng).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/916#issuecomment-50851 (hdhiswork/YEUCAU#916)
+- 📗: current.xtrareports, public.pschuky
+- 📕: Phân hệ HospitalPrinter.exe (callForm.cs - BKChiPhiKCB6556)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-thucte-gio-ky.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-gio-ky-benh-nhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-reportdesigner-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-chuky-nguoibenh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-hoten-nhanvien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmchonnhanvien-f2.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-hospitalprinter-phieu01-thucte.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-kyso-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-khoangcachgiay.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-real-flow.png)
+
 ## [v.3.26.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610281-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung 02 Textbox hiển thị Họ tên nhân viên liền kề Mã nhân viên kế toán và Người lập bảng kê trên Form Cấu hình phiếu 01 (XFrmBK6556Option). Hỗ trợ phím tắt F2 mở Popup XFrmChonNhanVien tra cứu danh mục nhân viên đang làm việc (kèm icon DevExpress chuẩn cho nút Chọn và Đóng), tự động điền Mã NV và Họ tên.
 - 🐛: Tối ưu kích thước Form XFrmBK6556Option gọn gàng (840 x 680, FixedDialog, MaximizeBox = false), mở rộng ô nhập mã nhân viên (136px), tối ưu các dòng chia cột đa control triệt tiêu hoàn toàn thanh cuộn ngang (horizontal scrollbar) mà không bị bể thông tin. Thêm ràng buộc kiểm tra hợp lệ khi bấm [Lưu], ngăn lưu mã nhân viên không tồn tại trong danh mục đang làm việc.
