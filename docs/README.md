@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1028.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610280-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hoàn thiện quy trình hiển thị chữ ký người bệnh trên Bảng kê chi phí KCB (Mẫu 01/KBCB - QĐ 6556) kết hợp ký số hai lượt (Người lập & Kế toán) trong phân hệ HospitalPrinter.exe.
+- 🐛: Khắc phục lỗi Bảng kê chi phí KCB không hiển thị chữ ký của người bệnh tại khung XÁC NHẬN CỦA NGƯỜI BỆNH dù đã có thiết kế `pictureBox1`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/916#issuecomment-50692 (hdhiswork/YEUCAU#916)
+- 📗: Đọc dữ liệu nét vẽ chữ ký người bệnh từ bảng `public.pschuky` thuộc CSDL đính kèm (`_dinhkem`).
+- 📕: Kiểm thử thực tế trên bệnh nhân 2026023099 (Test 2), chữ ký nét vẽ hiển thị chuẩn xác tại vị trí xác nhận người bệnh trên mẫu in 01 qua phân hệ HospitalPrinter.exe.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-chuky-nguoibenh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-kyso-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-reportdesigner-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-khoangcachgiay.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-hospitalprinter-phieu01-thucte.png)
+
 ## [v.3.26.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610270-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đồng bộ cấu hình và thư viện in ấn với các phân hệ HosPrinter, HospitalToaThuoc, XtraRPT phục vụ kiểm thử và phát hành HospitalPrinter.exe mới.
 - 🐛: Sửa lỗi không in được toa thuốc YHCT và bảng kê 697 khi dịch vụ ký số không sẵn sàng, đồng thời khắc phục lỗi in trực tiếp không nhận đúng số bản in cấu hình (iCopies).
