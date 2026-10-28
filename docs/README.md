@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610281-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung 02 Textbox hiển thị Họ tên nhân viên liền kề Mã nhân viên kế toán và Người lập bảng kê trên Form Cấu hình phiếu 01 (XFrmBK6556Option). Hỗ trợ phím tắt F2 mở Popup XFrmChonNhanVien tra cứu danh mục nhân viên đang làm việc (kèm icon DevExpress chuẩn cho nút Chọn và Đóng), tự động điền Mã NV và Họ tên.
+- 🐛: Tối ưu kích thước Form XFrmBK6556Option gọn gàng (840 x 680, FixedDialog, MaximizeBox = false), mở rộng ô nhập mã nhân viên (136px), tối ưu các dòng chia cột đa control triệt tiêu hoàn toàn thanh cuộn ngang (horizontal scrollbar) mà không bị bể thông tin. Thêm ràng buộc kiểm tra hợp lệ khi bấm [Lưu], ngăn lưu mã nhân viên không tồn tại trong danh mục đang làm việc.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/916#issuecomment-50787 (hdhiswork/YEUCAU#916)
+- 📗: current.dmnhanvien (lấy holot, ten, macv, mack, taikhoan với điều kiện COALESCE(trangthai, '1') = '1')
+- 📕: Form Cấu hình phiếu 01 theo QĐ 6556 (XFrmBK6556Option) và Form chọn nhân viên F2 (XFrmChonNhanVien) thuộc phân hệ HospitalPrinter.exe
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-hoten-nhanvien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmchonnhanvien-f2.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-chuky-nguoibenh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-hospitalprinter-phieu01-thucte.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-phieu01-kyso-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-reportdesigner-ngaykybenhnhan.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-916/debug-image-printer-xfrmbk6556option-khoangcachgiay.png)
+
 ## [v.3.26.1028.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32610280-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hoàn thiện quy trình hiển thị chữ ký người bệnh trên Bảng kê chi phí KCB (Mẫu 01/KBCB - QĐ 6556) kết hợp ký số hai lượt (Người lập & Kế toán) trong phân hệ HospitalPrinter.exe.
 - 🐛: Khắc phục lỗi Bảng kê chi phí KCB không hiển thị chữ ký của người bệnh tại khung XÁC NHẬN CỦA NGƯỜI BỆNH dù đã có thiết kế `pictureBox1`.
