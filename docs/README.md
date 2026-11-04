@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611040-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung quyền mở trình thiết kế trang in DevExpress cho tài khoản admin và tự động fallback in mẫu mặc định khi chưa có mẫu trong CSDL.
+- 🐛: Sửa lỗi không in được phiếu thu tại form Xuất bán lẻ (FrmXKXuatBL) khi dùng mẫu tự thiết kế (sdmauphieuthu = 3) do truyền thiếu tài khoản và bị nuốt mẫu in mặc định.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1079
+- 📗: Không thay đổi cấu trúc bảng, kiểm tra nạp mẫu từ bảng current.xtrareports (reports = 'Printer_SuDungPhieuThu_TuIn').
+- 📕: Phân hệ Printer -> Màn hình Xuất bán lẻ (FrmXKXuatBL), bấm [In phiếu thu]. Khi đăng nhập admin sẽ hỏi xác nhận mở trình thiết kế; khi in bình thường sẽ nạp mẫu in ra máy in hợp lệ.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1079/debug-image-printer-frmxkxuatbl-inphieuthu-thanhcong.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1079/debug-image-printer-thietke-trangin-admin-prompt.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1079/debug-image-printer-frmmain-fullflow.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1079/debug-image-printer-inthu-preview.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1079/debug-image-printer-thietke-trangin-admin.png)
+
 ## [v.3.26.1102.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611020-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đóng gói lại HospitalPrinter kèm XtraRPT 3.26.1031.0 (bỏ tiền kiểm tra `LayPdfDaKy` trước khi in / ký số Bảng kê 01/KBCB) cho các trạm đang chạy bản cũ.
 - 🐛: Khắc phục lỗi in Bảng kê chi phí KCB (Mẫu 01/KBCB - QĐ 6556/697) chậm 2-3 phút mỗi bệnh nhân khi dịch vụ ký số (`cks.url`) không kết nối được: XtraRPT < 3.26.1029.0 gọi `CallAPI.LayPdfDaKy` (thử 5 tên tài liệu / phiếu) trước khi in, mỗi lệnh chờ hết lượt kết nối. Cập nhật XtraRPT 3.26.1031.0 (đã bỏ `LayPdfDaKy` trong `_ShowPdfSignVerificationForm`): khi tắt dịch vụ ký số, thời gian đứng giao diện giảm từ 147-160 s xuống khoảng 4-10 s.
