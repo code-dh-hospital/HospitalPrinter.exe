@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611100-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp thư viện `DH.XML4750` và `OTH.XForms.v.1.0`: Luôn luôn cảnh báo chặn in bảng kê ngoại trú đối với bệnh nhân đã xử trí nhập viện và ẩn tùy chọn Cảnh báo trên form cấu hình Option 6556 (`XFrmBK6556Option`).
+- 🐛: Khắc phục lỗi in bảng kê ngoại trú cho bệnh nhân đã xử trí nhập viện gây xung đột đồng bộ trạng thái EMR (SyncADM kéo bệnh nhân đã xuất viện về đang điều trị) và xuất toán BHYT.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/988
+- 📗: Kiểm tra bảng `current.bnnoitru`, `current.chidinhcls` và cấu hình `current.coderun` (`printer_bk6556_option`) trên CSDL `emr_omon` (Port 5433 - TTYT KV Ô Môn).
+- 📕: [Mo-ta-chan-update-psdangky-ngayinphieu-in-bang-ke-noi-tru-issue-988.md](../../Mo-ta-he-thong/NOITRU/Mo-ta-chan-update-psdangky-ngayinphieu-in-bang-ke-noi-tru-issue-988.md)
+![](https://i.vgy.me/SUx6Cg.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-988/debug-image-printer-xfrmbk6556option-da-an-canhbao.png)
+
 ## [v.3.26.1104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611040-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung quyền mở trình thiết kế trang in DevExpress cho tài khoản admin và tự động fallback in mẫu mặc định khi chưa có mẫu trong CSDL.
 - 🐛: Sửa lỗi không in được phiếu thu tại form Xuất bán lẻ (FrmXKXuatBL) khi dùng mẫu tự thiết kế (sdmauphieuthu = 3) do truyền thiếu tài khoản và bị nuốt mẫu in mặc định.
