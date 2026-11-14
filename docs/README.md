@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1114.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611140-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Mở rộng bộ lọc kho cấp phát ClsInPhieuAdapter.GetBenhNhan nhận diện toàn bộ các kho cấp phát con (khocpc = kho cha) của Khoa Dược (Kho 14).
+- 🐛: Khắc phục lỗi máy in Kho 14 Khoa Dược hiển thị bệnh nhân và toa Nhà thuốc (khole = 13, kyhieu = TMN); chặn nạp chi tiết chứng từ toa TMN tại GetChungTuChiTiet_Mau01BV.
+- ☑: [hdhiswork/LOI#1094](https://i.dh-his.com/hdhiswork/LOI/issues/1094)
+- 📗: Bổ sung điều kiện AND COALESCE(a.kyhieu, '') != 'TMN' và a.khole IN (SELECT khocp FROM current.dmkhocp WHERE khocp = '{0}' OR khocpc = '{0}') trong current.chungtu.
+- 📕: Phân hệ In phiếu (HospitalPrinter.exe) tại Khoa Dược in phiếu cấp phát thuốc chính xác theo các kho trực thuộc, không bị lẫn toa mua ngoài của Nhà thuốc.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1094/debug-image-printer-khoduoc-khongloctoanhathuoc.png)
+
 ## [v.3.26.1111.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp thư viện `OTH.Adapter` mới nhất (`v.1.26.1106.0`), hỗ trợ nhận diện toa thuốc 0 đồng (chương trình viện trợ ARV) trong `sqlToa0Dong` khi tính toán Bảng 1 XML130/4750 và XML3176.
 - 🐛: Sửa lỗi phân hệ in ấn `HospitalPrinter` bị lệch thông tin XML 3176 `so_ngay_dtri = 0` và `ma_loai_kcb = 08` so với module Reports (`so_ngay_dtri = 35`, `ma_loai_kcb = 05`). Loại bỏ điều kiện lọc cứng `AND COALESCE(bhyt,0) = 1` trong `sqlToa0Dong` tại `XML4750_MA_LOAI_KCB()` và `XML4750_MA_LOAI_KCB_1804()` trong `AGiamDinh.4750.XML01.cs` để thống nhất với hàm `get_SO_NGAY_DTRI_Toa0Dong`.
