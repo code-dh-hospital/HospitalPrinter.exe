@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1115.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611151-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Mở rộng bộ lọc kho cấp phát cho màn hình In toa nội trú (XfrmInToa), đồng bộ cấu hình kho cấp phát của máy in Khoa Dược.
+- 🐛: Khắc phục lỗi phân hệ in ấn HospitalPrinter.exe tại Kho 14 Khoa Dược vẫn hiển thị toa thuốc của Kho 13 Nhà thuốc khi mở màn hình In toa nội trú.
+- ☑: [hdhiswork/LOI#1094](https://i.dh-his.com/hdhiswork/LOI/issues/1094)
+- 📗: FrmMain.cs truyền FrmMain.strMaKhoCP khi mở XfrmInToa; getChungTuInToa lọc điều kiện a.khole theo kho cấp phát máy in.
+- 📕: Phân hệ In phiếu (HospitalPrinter.exe) tại Kho 14 Khoa Dược chỉ hiển thị và nhận thuốc các toa thuốc trực thuộc Kho 14, không bị lẫn toa mua ngoài của Nhà thuốc.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1094/debug-image-printer-khoduoc-khongloctoanhathuoc.png)
+
 ## [v.3.26.1115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mở rộng bộ lọc kho cấp phát cho màn hình In toa nội trú (XfrmInToa), đồng bộ cấu hình kho cấp phát của máy in Khoa Dược.
 - 🐛: Khắc phục lỗi phân hệ in ấn HospitalPrinter.exe tại Kho 14 Khoa Dược vẫn hiển thị toa thuốc của Kho 13 Nhà thuốc khi mở màn hình In toa nội trú.
