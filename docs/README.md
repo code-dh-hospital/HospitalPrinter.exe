@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1116.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Xác nhận toa thuốc tại Dược dùng cho tất cả khách hàng theo tham số xacnhantoathuoc (bỏ bắt cứng mabvbh 87014): in phiếu 01 khi còn toa chưa xác nhận -> 1: hỏi tiếp tục, 2: chặn; thông báo kèm "(Tham số: xacnhantoathuoc = <giá trị>)". Form Xác nhận toa thuốc thêm mã thẻ BHYT, hạn thẻ, liều sáng/trưa/chiều/tối, cách dùng. Cập nhật kèm DLL: OTH.Adapter 1.26.1116.1, OTH.XForms.v.1.0 1.26.1116.0, HosPrinter 3.26.1116.0.
+- 🐛: ---
+- ☑: [hdhiswork/YEUCAU#997](https://i.dh-his.com/hdhiswork/YEUCAU/issues/997)
+- 📗: Không đổi cấu trúc CSDL. Tham số current.system.xacnhantoathuoc (0 / 1 / 2). Chi tiết: [Mo-ta-yeucau-997-xac-nhan-toa-thuoc.md](../../Mo-ta-he-thong/Printer/Mo-ta-yeucau-997-xac-nhan-toa-thuoc.md)
+- 📕: Quy trình bác sĩ ra toa -> Dược xác nhận -> in bảng kê 01. BV Sa Đéc (87014) đặt xacnhantoathuoc = 1 để giữ như cũ. Hướng dẫn triển khai: [Huong-dan-quy-trinh-xac-nhan-toa-thuoc-yeucau-997.md](../../Mo-ta-he-thong/Printer/Huong-dan-quy-trinh-xac-nhan-toa-thuoc-yeucau-997.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-997/debug-image-printer-frminphieukcb-ts2-chan-in-bangke.png?v=2)
+
 ## [v.3.26.1115.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611151-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mở rộng bộ lọc kho cấp phát cho màn hình In toa nội trú (XfrmInToa), đồng bộ cấu hình kho cấp phát của máy in Khoa Dược.
 - 🐛: Khắc phục lỗi phân hệ in ấn HospitalPrinter.exe tại Kho 14 Khoa Dược vẫn hiển thị toa thuốc của Kho 13 Nhà thuốc khi mở màn hình In toa nội trú.
