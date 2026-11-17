@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Printer] Bổ sung và đồng bộ tính năng ghi nhận người thực hiện, ngày kết quả công khám bảng XML3 theo QĐ 3176/4750 (BV TMĐ TG)
+- 🐛: Đồng bộ cập nhật từ OTH.Entity, OTH.Adapter và OTH.XForms.v.1.0 cho phân hệ In ấn (HospitalPrinter)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/993
+- 📗: Lưu cấu hình EOptionBHXH vào current.coderun
+- 📕: Phân hệ In ấn đồng bộ dữ liệu xuất XML 4750/3176 với người thực hiện và ngày kết quả công khám
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-993/debug-image-admin-xfrmbkxuatxml4750-xml03-congkham.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-993/debug-image-admin-xfrmoptionbhxh-cauhinh-xml3.png)
+
 ## [v.3.26.1116.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Xác nhận toa thuốc tại Dược dùng cho tất cả khách hàng theo tham số xacnhantoathuoc (bỏ bắt cứng mabvbh 87014): in phiếu 01 khi còn toa chưa xác nhận -> 1: hỏi tiếp tục, 2: chặn; thông báo kèm "(Tham số: xacnhantoathuoc = <giá trị>)". Form Xác nhận toa thuốc thêm mã thẻ BHYT, hạn thẻ, liều sáng/trưa/chiều/tối, cách dùng. Cập nhật kèm DLL: OTH.Adapter 1.26.1116.1, OTH.XForms.v.1.0 1.26.1116.0, HosPrinter 3.26.1116.0.
 - 🐛: ---
