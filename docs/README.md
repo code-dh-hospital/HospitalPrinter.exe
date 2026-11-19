@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Ký xác nhận của bệnh nhân trên Tablet (web Go dh-benhnhan-ky-go): in phiếu có ô ký bệnh nhân / "In bệnh nhân ký" -> phiếu hiện trên Tablet ghép với máy, bệnh nhân ký xong HIS lưu chữ ký và in như SignPad. Cập nhật kèm DLL: DH.SignEvolis, XtraRPT.
+- 🐛: ---
+- ☑: [hdhiswork/YEUCAU#1027](https://i.dh-his.com/hdhiswork/YEUCAU/issues/1027)
+- 📗: Không đổi cấu trúc CSDL. Server web ghi 1 dòng `current.coderun` code 'bnky_tablet_web'. Chi tiết: [Mo-ta-yeucau-1027-ky-benh-nhan-tren-tablet.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-1027-ky-benh-nhan-tren-tablet.md)
+- 📕: Hướng dẫn triển khai và sử dụng (tải, cài, cấu hình, ghép Tablet, sử dụng, xử lý sự cố): [Huong-dan-trien-khai-va-su-dung-ky-benh-nhan-tablet-yeucau-1027.md](../../Mo-ta-he-thong/SO-HOA/Huong-dan-trien-khai-va-su-dung-ky-benh-nhan-tablet-yeucau-1027.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1027/debug-image-bnkyweb-ky-ipad-da-ve-chu-ky.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1027/debug-image-signevolis-ketqua-chuky-gan-vao-phieu.png)
+
 ## [v.3.26.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Printer] Bổ sung và đồng bộ tính năng ghi nhận người thực hiện, ngày kết quả công khám bảng XML3 theo QĐ 3176/4750 (BV TMĐ TG)
 - 🐛: Đồng bộ cập nhật từ OTH.Entity, OTH.Adapter và OTH.XForms.v.1.0 cho phân hệ In ấn (HospitalPrinter)
