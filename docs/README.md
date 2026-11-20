@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1120.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611201-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Form ký bệnh nhân: rê chuột vào nút **Ký sau** / **Mã QR** có gợi ý ngắn. Cập nhật kèm DLL: DH.SignEvolis.
+- 🐛: ---
+- ☑: [hdhiswork/YEUCAU#1027](https://i.dh-his.com/hdhiswork/YEUCAU/issues/1027)
+- 📗: Không đổi cấu trúc CSDL.
+- 📕: Hướng dẫn: [Huong-dan-trien-khai-va-su-dung-ky-benh-nhan-tablet-yeucau-1027.md](../../Mo-ta-he-thong/SO-HOA/Huong-dan-trien-khai-va-su-dung-ky-benh-nhan-tablet-yeucau-1027.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1027/debug-image-signevolis-goi-y-nut-ky-sau.png)
+
 ## [v.3.26.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Ký bệnh nhân giai đoạn 2: ký **song song** SignPad / vân tay / chuột và Tablet / điện thoại của **phân khu** (ai ký trước lấy chữ ký đó); **Ký sau** (phiếu vào danh sách chờ ký trên thiết bị, giữ 4 giờ, ký xong tự lưu hồ sơ); **Mã QR** mở trang ký (URL mã hóa hạn 4 giờ) ở form ký, menu Trợ giúp và menu Bệnh nhân ký; ô **Phân khu ký di động** trong Cấu hình máy. Cập nhật kèm DLL: DH.SignEvolis, XtraRPT, LibraryApp, HosPrinter.
 - 🐛: L1 – thông báo thiết bị ký chung chung: form ký ghi rõ từng thiết bị có / không và vì sao. L2 – 2 tab cùng URL ký giành kết nối liên tục (sửa ở web `dh-benhnhan-ky-go` 1.1.0).
