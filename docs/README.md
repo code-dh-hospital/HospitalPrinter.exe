@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611230-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật phân hệ HospitalPrinter đồng bộ thư viện HosPrinter xử lý mở khóa chứng từ BANT
+- 🐛: Khắc phục lỗi khi mở khóa chứng từ BANT trên HospitalPrinter không reset dain = 0 trong current.bnnoitru
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+- 📗: Cập nhật kèm DLL: HosPrinter. Sau khi mở khóa chứng từ BANT, cho phép phân hệ khám bệnh / nội trú chuyển lại chi phí vào nội trú bình thường
+- 📕: Reset dain = 0 trong current.bnnoitru khi mở khóa chứng từ (hoặc trả về đang điều trị) trên form Mở khóa chứng từ
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-printer-frmmokhoachungtu-bant-dain.png)
+
 ## [v.3.26.1120.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611201-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Form ký bệnh nhân: rê chuột vào nút **Ký sau** / **Mã QR** có gợi ý ngắn. Cập nhật kèm DLL: DH.SignEvolis.
 - 🐛: ---
