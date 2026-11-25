@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611250-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Nâng cấp `RecheckRooExeDll()` trong `Printer/ProgramPrinter.cs` sang so sánh `AssemblyVersion` giữa tài nguyên nhúng và `Roo.Exe.dll` trên đĩa qua tệp tạm `%TEMP%\roover_*.dll` (không nạp vào AppDomain) và đóng gói lại `Resources/Roo.Exe.dll.zip` chuẩn `1.26.0916.7`.
+- 🐛: Sửa lỗi `RecheckRooExeDll()` kiểm tra `md5File != md5InResource` gây hạ cấp nhầm `Roo.Exe.dll` trên đĩa về `1.26.0915.12` khiến `HospitalPrinter.exe` không bật hộp thoại `MsgBoxUpdater` thông báo phiên bản mới từ remote DB (`3.26.1120.1`).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/845#issuecomment-54852 (hdhiswork/YEUCAU#845)
+- 📗: Không thay đổi DDL; sử dụng cấu hình `current.coderun` (`code = 'EOptionAdmin'`) trên DB HIS và kiểm tra metadata/MD5 trong `public.module` trên DB AppUpdate remote (`tra_codo_092026`).
+- 📕: Khi khởi chạy `HospitalPrinter.exe`, nếu `Roo.Exe.dll` trên đĩa thiếu hoặc cũ hơn bản nhúng sẽ tự chữa lành lên `1.26.0916.7`, nếu đĩa đang có bản cao hơn hoặc bằng sẽ giữ nguyên không hạ cấp, sau đó hiển thị `MsgBoxUpdater` thông báo phiên bản mới. Xem chi tiết: [Mo-ta-sua-loi-cap-nhat-module-admin-printer-khong-ha-cap-roo-exe.md](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/Quan-tri-Admin/Mo-ta-sua-loi-cap-nhat-module-admin-printer-khong-ha-cap-roo-exe.md)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-845/debug-image-hospitalprinter-msgboxupdater-thongbao.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-845/debug-image-hospitalprinter-frmmain-fullflow-main.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-845/debug-image-hospitalprinter-frmhome-fullflow.png)
+
 ## [v.3.26.1123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FHospitalPrinterexe%2F32611230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật phân hệ HospitalPrinter đồng bộ thư viện HosPrinter xử lý mở khóa chứng từ BANT
 - 🐛: Khắc phục lỗi khi mở khóa chứng từ BANT trên HospitalPrinter không reset dain = 0 trong current.bnnoitru
